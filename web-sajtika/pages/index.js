@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -181,28 +182,7 @@ export default function Home() {
           </div>
           {/* End Portfolio Section */}
         </div>
-        {/* Contact Section */}
-        <div className="w3-padding-64 w3-content w3-text-grey" id="contact">
-          <h2 className="w3-text-light-grey">Contact Me</h2>
-          <hr style={{ width: "200px" }} className="w3-opacity" />
-          <div className="w3-section">
-            <p>
-              <i className="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right" />{" "}
-              Chicago, US
-            </p>
-            <p>
-              <i className="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right" />{" "}
-              Phone: +00 151515
-            </p>
-            <p>
-              <i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right">
-                {" "}
-              </i>{" "}
-              Email: mail@mail.com
-            </p>
-          </div>
-          <br />
-        </div>
+        <Contact />
         {/* Footer */}
         <footer className="w3-content w3-padding-64 w3-text-grey w3-xlarge">
           <i className="fa fa-facebook-official w3-hover-opacity" />
