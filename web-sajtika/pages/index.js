@@ -1,11 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import MyHead from "../components/Head";
 
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Programerika</title>
+      </Head>
       <nav className="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
         {/* Avatar image in top left corner */}
         <Image src="/img/logo.png" alt="me" width="200" height="200" />
