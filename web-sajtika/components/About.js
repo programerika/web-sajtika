@@ -8,7 +8,7 @@ const About = () => {
         className="w3-container w3-padding-20 w3-center w3-black"
         id="home"
       >
-        <h1 className="w3-jumbo">
+        <h1 className="w3-xxxlarge">
           <span className="w3-hide-small">We are</span> Programerika.
         </h1>
         <p>Software Engineering &amp; Design</p>
@@ -22,7 +22,7 @@ const About = () => {
       </header>
       {/* About Section */}
       <div className="w3-content w3-justify w3-text-grey" id="about">
-        <h2 className="w3-text-light-grey">My Name</h2>
+        <h2 className="w3-text-light-grey w3-center">My Name</h2>
         <hr style={{ width: "200px" }} className="w3-opacity" />
         <p>
           Some text about me. Some text about me. I am lorem ipsum consectetur
@@ -36,7 +36,9 @@ const About = () => {
           labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
           exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
-        <h3 className="w3-padding-16 w3-text-light-grey">My Skills</h3>
+        <h3 className="w3-padding-16 w3-text-light-grey w3-center">
+          My Skills
+        </h3>
         <p className="w3-wide">Photography</p>
         <div className="w3-white">
           <div

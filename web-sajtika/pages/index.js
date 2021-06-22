@@ -10,13 +10,13 @@ export default function Home() {
       <Head>
         <title>Programerika</title>
       </Head>
-      <Navbar/>
+      <Navbar />
       {/* Page Content */}
       <div className="w3-padding-large" id="main">
         <About />
         {/* Portfolio Section */}
         <div className="w3-padding-64 w3-content" id="photos">
-          <h2 className="w3-text-light-grey">My Photos</h2>
+          <h2 className="w3-text-light-grey w3-center">My Photos</h2>
           <hr style={{ width: "200px" }} className="w3-opacity" />
           {/* Grid for photos */}
           <div className="w3-row-padding" style={{ margin: "0 -16px" }}>
