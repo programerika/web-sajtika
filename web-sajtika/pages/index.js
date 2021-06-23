@@ -3,6 +3,7 @@ import Image from "next/image";
 import Contact from "../components/Contact";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
+import Technologies from "../components/Technologies";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       {/* Page Content */}
       <div className="w3-padding-large" id="main">
         <About />
+        <Technologies></Technologies>
         {/* Portfolio Section */}
         <div className="w3-padding-64 w3-content" id="photos">
           <h2 className="w3-text-light-grey w3-center">My Photos</h2>
