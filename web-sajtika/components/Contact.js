@@ -5,19 +5,33 @@ const Contact = () => {
   return (
     <>
       {/* Contact Section */}
-      <div className="w3-padding-64 w3-content w3-text-grey" id="contact">
-        <h2 className="w3-text-light-grey">Contact Me</h2>
-        <hr style={{ width: "200px" }} className="w3-opacity" />
+      <div
+        className="w3-padding-64 w3-content w3-text-grey w3-justify"
+        id="contact"
+      >
+        <h2 className="w3-text-light-grey">Contact Us</h2>
+        <hr style={{ width: "100%" }} className="w3-opacity" />
         <div className="w3-section">
           <p>
             <i className="fa fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right">
               {" "}
             </i>{" "}
-            <label htmlFor="">Github:</label>
             <a href="https://github.com/programerika/web-sajtika">
               Project repository
+            </a>{" "}
+            <span> | </span>
+            {"   "}
+            <a href="https://github.com/programerika/web-sajtika">
+              GAME FE repository
+            </a>{" "}
+            <span> | </span>
+            {"   "}
+            <a href="https://github.com/programerika/web-sajtika">
+              GAME BE repository
             </a>
+            {"   "}
           </p>
+
           <p>
             <i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right">
               {" "}
@@ -33,7 +47,7 @@ const Contact = () => {
             width="600"
             height="450"
             id="myId"
-            className="myClassname"
+            className="w3-margin-top"
             display="initial"
             position="relative"
           />
