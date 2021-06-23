@@ -20,6 +20,11 @@ const Technologies = () => {
       >
         <h2 className="w3-text-light-grey w3-center">Technologies We Use</h2>
         <hr style={{ width: "100%" }} className="w3-opacity" />
+        <p>
+          We are eager to work on projects using following technologies. Of
+          course we have experiences with other technologies too and we can work
+          with them.
+        </p>
         <br />
         <br />
         <div className="w3-section">
