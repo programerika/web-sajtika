@@ -22,39 +22,25 @@ const About = () => {
       </header>
       {/* About Section */}
       <div className="w3-content w3-justify w3-text-grey" id="about">
-<<<<<<< HEAD
-        <h2 className="w3-text-light-grey w3-center">About Us</h2>
-        <hr style={{ width: "100%" }} className="w3-opacity" />
+        <h2 className="w3-text-light-grey">About us</h2>
+        <hr style={{ width: "200px" }} className="w3-opacity" />
         <p>
           Full stack software developer team from Serbia striving to design and
           implement efficient software solutions for it’s customers. We prepared
           this site with some dynamic content using React.js + Next.js and some
           Spring boot backend to show what we can do. You can review our game
-          (ref link) design and implementation, or you can play it. Our team is
-          consisted of software developer professionals having team leads with
-          more than 20 years of experience in software development covering many
-          technologies, including system architecture and performance
-          optimization. We have special domain knowledge in Banking and
-          Logistics domains.
+          (ref link) design and implementation, or you can play it. <br></br>
+          <br></br>
+          Our team is consisted of software developer professionals having team
+          leads with more than 20 years of experience in software development
+          covering many technologies, including system architecture and
+          performance optimization. We have special domain knowledge in Banking
+          and Logistics domains. <br></br>
+          <br></br>
+          Architecture of system that hosts this site is based on Kubernetes
+          high availability cluster deployed on Raspberry Pi devices … MORE
+          (link to ARCH page)
         </p>
-
-=======
-        <h2 className="w3-text-light-grey">About us</h2>
-        <hr style={{ width: "200px" }} className="w3-opacity" />
-        <p>
-          Full stack software developer team from Serbia striving to design 
-          and implement efficient software solutions for it’s customers. 
-          We prepared this site with some dynamic content using React.js + Next.js 
-          and some Spring boot backend to show what we can do. You can review our game 
-          (ref link) design and implementation, or you can play it. <br></br><br></br>
-          Our team is consisted of software developer professionals having team leads 
-          with more than 20 years of experience in software development covering many technologies, 
-          including system architecture and performance optimization. We have special domain 
-          knowledge in Banking and Logistics domains. <br></br><br></br>
-          Architecture of system that hosts this site is based on Kubernetes high availability 
-          cluster deployed on Raspberry Pi  devices … MORE (link to ARCH page)
-        </p>
->>>>>>> 8cda7b958af06c59d2431cf36d53b25a43c3d3e0
         {/* End About Section */}
       </div>
     </div>
