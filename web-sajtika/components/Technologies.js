@@ -16,7 +16,7 @@ const Technologies = () => {
     <>
       <div
         className="w3-padding-64 w3-content w3-text-grey w3-justify"
-        id="contact"
+        id="technologies"
       >
         <h2 className="w3-text-light-grey w3-center">Technologies We Use</h2>
         <hr style={{ width: "100%" }} className="w3-opacity" />
