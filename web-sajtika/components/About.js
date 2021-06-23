@@ -22,19 +22,20 @@ const About = () => {
       </header>
       {/* About Section */}
       <div className="w3-content w3-justify w3-text-grey" id="about">
-        <h2 className="w3-text-light-grey">My Name</h2>
+        <h2 className="w3-text-light-grey">About us</h2>
         <hr style={{ width: "200px" }} className="w3-opacity" />
         <p>
-          Some text about me. Some text about me. I am lorem ipsum consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Full stack software developer team from Serbia striving to design 
+          and implement efficient software solutions for it’s customers. 
+          We prepared this site with some dynamic content using React.js + Next.js 
+          and some Spring boot backend to show what we can do. You can review our game 
+          (ref link) design and implementation, or you can play it. <br></br><br></br>
+          Our team is consisted of software developer professionals having team leads 
+          with more than 20 years of experience in software development covering many technologies, 
+          including system architecture and performance optimization. We have special domain 
+          knowledge in Banking and Logistics domains. <br></br><br></br>
+          Architecture of system that hosts this site is based on Kubernetes high availability 
+          cluster deployed on Raspberry Pi  devices … MORE (link to ARCH page)
         </p>
         {/* End About Section */}
       </div>
