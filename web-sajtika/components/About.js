@@ -39,7 +39,7 @@ const About = () => {
           <br></br>
           Architecture of system that hosts this site is based on Kubernetes
           high availability cluster deployed on Raspberry Pi devices … MORE
-          (link to ARCH page)
+          (link to ARCH page...)
         </p>
         {/* End About Section */}
       </div>
