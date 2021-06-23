@@ -80,7 +80,7 @@ const Technologies = () => {
               description="We can use JS or typescript. Basic react project or with Next.js for full produciton requirements."
             ></Card>
             <Card
-              image="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png"
+              image="https://ertan-toker.de/wp-content/uploads/2018/04/spring-boot-project-logo-1-e1535836912198.png"
               description="One of best platforms for microservice architecture. "
             ></Card>
             <Card
