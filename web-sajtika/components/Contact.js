@@ -9,7 +9,7 @@ const Contact = () => {
         className="w3-padding-64 w3-content w3-text-grey w3-justify"
         id="contact"
       >
-        <h2 className="w3-text-light-grey">Contact Us</h2>
+        <h2 className="w3-text-light-grey w3-center">Contact Us</h2>
         <hr style={{ width: "100%" }} className="w3-opacity" />
         <div className="w3-section">
           <p>

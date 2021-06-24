@@ -22,8 +22,8 @@ const About = () => {
       </header>
       {/* About Section */}
       <div className="w3-content w3-justify w3-text-grey" id="about">
-        <h2 className="w3-text-light-grey">About us</h2>
-        <hr style={{ width: "200px" }} className="w3-opacity" />
+        <h2 className="w3-text-light-grey w3-center">About us</h2>
+        <hr style={{ width: "100%" }} className="w3-opacity" />
         <p>
           Full stack software developer team from Serbia striving to design and
           implement efficient software solutions for it’s customers. We prepared
