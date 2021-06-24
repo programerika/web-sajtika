@@ -1,8 +1,6 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
-import WithStyles from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Image from "next/dist/client/image";
 import Card from "./Card";
 
 const responsive = {
@@ -70,45 +68,45 @@ const Technologies = () => {
                 partialVisibilityGutter: 30,
               },
             }}
-            showDots={false}
+            showDots
             sliderClass=""
             slidesToSlide={1}
             swipeable
           >
             <Card
-              image="http://reacttrainingcamp.com/images/react-logo.png"
+              image="/img/react-logo.png"
               description="We can use JS or typescript. Basic react project or with Next.js for full produciton requirements."
             ></Card>
             <Card
-              image="https://ertan-toker.de/wp-content/uploads/2018/04/spring-boot-project-logo-1-e1535836912198.png"
+              image="/img/spring-logo.png"
               description="One of best platforms for microservice architecture. "
             ></Card>
             <Card
-              image="https://gcollazo.github.io/mongodbapp/assets/img/icon.png"
+              image="/img/mongo-logo.png"
               description="Document store nosql database"
             ></Card>
             <Card
-              image="https://pbs.twimg.com/profile_images/938272746328543232/kxHkAenZ_400x400.jpg"
+              image="/img/postgresql-logo.jpg"
               description="Free relational database"
             ></Card>
             <Card
-              image="https://my.cyclr.com/api/ConnectorIcon/11824"
+              image="/img/sqlserver-logo.png"
               description="Relation database with enterprise features"
             ></Card>
             <Card
-              image="https://www.influxdata.com/wp-content/uploads/Apache-kafka.png"
+              image="/img/kafka-logo.png"
               description="Message streaming solution mostly used for asynchronous communication between backend services."
             ></Card>
             <Card
-              image="https://pbs.twimg.com/profile_images/1223261138059780097/eH73w5lN_400x400.jpg"
+              image="/img/rabbit-logo.jpg"
               description="Message queue solution for asynchronous communication between services focused on specific business cases."
             ></Card>
             <Card
-              image="https://pbs.twimg.com/profile_images/1285653263824691205/mu4nJ7Gb_400x400.png"
+              image="/img/redis-logo.png"
               description="Caching solution used to store state and make services stateless."
             ></Card>
             <Card
-              image="https://cloudnesil.com/wp-content/uploads/2018/12/kuberneteslogo.png"
+              image="/img/kube-logo.png"
               description="Microservices deployment orchestration solution."
             ></Card>
           </Carousel>
