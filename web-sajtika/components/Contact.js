@@ -36,7 +36,7 @@ const Contact = () => {
             <i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right">
               {" "}
             </i>{" "}
-            Email: vladimir.djekic@programerika.com
+            Email: office@programerika.com
           </p>
           <p>
             <i className="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right" />{" "}

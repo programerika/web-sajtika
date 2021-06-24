@@ -12,7 +12,7 @@ const About = () => {
         <h1 className="w3-xxxlarge">
           <span className="w3-hide-small">We are</span> Programerika.
         </h1>
-        <p>Software Engineering &amp; Design</p>
+        <p>Full stack software development team</p>
         <Image
           src="/img/logo.png"
           alt="me"
@@ -39,18 +39,21 @@ const About = () => {
           and Logistics domains. <br></br>
           <br></br>
           Architecture of system that hosts this site is based on Kubernetes
-          high availability cluster deployed on Raspberry Pi devices … 
-          <Link href="/arch"><a>MORE</a></Link><br></br><br></br>
-          
+          high availability cluster deployed on Raspberry Pi devices …
+          <Link href="/arch">
+            <a>MORE</a>
+          </Link>
+          <br></br>
+          <br></br>
         </p>
         <div className="raspberry-logo w3-center w3-padding">
-            <Image 
-              src="/img/raspberry-pi-logo.jpg" 
-              alt="me" 
-              width="400" 
-              height="160" 
-            />
-          </div>
+          <Image
+            src="/img/raspberry-pi-logo.jpg"
+            alt="me"
+            width="400"
+            height="160"
+          />
+        </div>
         {/* End About Section */}
       </div>
     </div>

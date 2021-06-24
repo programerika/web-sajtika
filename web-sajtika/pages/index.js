@@ -17,8 +17,11 @@ export default function Home() {
       <div className="w3-padding-large" id="main">
         <About />
         <Technologies></Technologies>
-        <AboutGame/>
+        <AboutGame />
         <Contact />
+        <footer className="w3-content w3-padding-64">
+          <p className="w3-center w3-text-gray">Programerika &copy; 2021</p>
+        </footer>
       </div>
     </div>
   );
