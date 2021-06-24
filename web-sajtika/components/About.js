@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -38,9 +39,8 @@ const About = () => {
           and Logistics domains. <br></br>
           <br></br>
           Architecture of system that hosts this site is based on Kubernetes
-          high availability cluster deployed on Raspberry Pi devices … MORE
-          (link to ARCH page...)
-          <br></br><br></br>
+          high availability cluster deployed on Raspberry Pi devices … 
+          <Link href="/arch"><a>MORE</a></Link><br></br><br></br>
           <div className="raspberry-logo w3-center w3-padding">
             <Image 
               src="/img/raspberry-pi-logo.jpg" 
