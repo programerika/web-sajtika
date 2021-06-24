@@ -28,6 +28,13 @@ const Navbar = () => {
           <p>TECH</p>
         </a>
         <a
+          href="#game"
+          className="w3-bar-item w3-button w3-padding-large w3-hover-black"
+        >
+          <i className="fa fa-gamepad w3-xxlarge"></i>
+          <p>GAME</p>
+        </a>
+        <a
           href="#contact"
           className="w3-bar-item w3-button w3-padding-large w3-hover-black"
         >
@@ -41,31 +48,40 @@ const Navbar = () => {
           <a
             href="#"
             className="w3-bar-item w3-button"
-            style={{ width: "25% !important" }}
+            style={{ width: "20% !important" }}
           >
             HOME
           </a>
           <a
             href="#about"
             className="w3-bar-item w3-button"
-            style={{ width: "25% !important" }}
+            style={{ width: "20% !important" }}
           >
             ABOUT
           </a>
           <a
-            href="#photos"
+            href="#technologies"
             className="w3-bar-item w3-button"
-            style={{ width: "25% !important" }}
+            style={{ width: "20% !important" }}
           >
-            PHOTOS
+            TECH
           </a>
+          <a
+            href="#game"
+            className="w3-bar-item w3-button"
+            style={{ width: "20% !important" }}
+          >
+            GAME
+          </a>
+
           <a
             href="#contact"
             className="w3-bar-item w3-button"
-            style={{ width: "25% !important" }}
+            style={{ width: "20% !important" }}
           >
             CONTACT
           </a>
+          
         </div>
       </div>
     </div>

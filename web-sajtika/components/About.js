@@ -41,7 +41,9 @@ const About = () => {
           Architecture of system that hosts this site is based on Kubernetes
           high availability cluster deployed on Raspberry Pi devices … 
           <Link href="/arch"><a>MORE</a></Link><br></br><br></br>
-          <div className="raspberry-logo w3-center w3-padding">
+          
+        </p>
+        <div className="raspberry-logo w3-center w3-padding">
             <Image 
               src="/img/raspberry-pi-logo.jpg" 
               alt="me" 
@@ -49,7 +51,6 @@ const About = () => {
               height="160" 
             />
           </div>
-        </p>
         {/* End About Section */}
       </div>
     </div>
