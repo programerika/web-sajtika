@@ -1,6 +1,14 @@
 import React from "react";
+import Card from "./Card";
+import { useState } from "react";
+import { Slide } from 'react-slideshow-image';
+import { Fade } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
 
 const ArchGallery = () => {
+
+  // const [autoplay, setAutoplay] = useState(true);
+
   return (
     <div>
       {/*Arch Gallery Section */}
@@ -10,6 +18,41 @@ const ArchGallery = () => {
 
         {/* TODO Add Gallery here */}
 
+        <div className="slide-container w3-center">
+          <Slide 
+            autoplay={Infinity} 
+            canSwipe 
+          >
+              <Card
+                image="/img/rbpi4-setup.jpg"
+                description="Rapsberry Pi 4 setup"
+              ></Card>
+              <Card
+                image="/img/rbpi4-setup-1.jpg"
+                description="Rapsberry Pi 4 setup"
+              ></Card>
+              <Card
+                image="/img/rbpi4-cooler-set.jpg"
+                description="Rapsberry Pi 4 cooler set"
+              ></Card>
+              <Card
+                image="/img/rbpi4-coolers.jpg"
+                description="Rapsberry Pi 4 coolers"
+              ></Card>
+              <Card
+                image="/img/rbpi4-hdmi.jpg"
+                description="Rapsberry Pi 4 HDMI cable"
+              ></Card>
+              <Card
+                image="/img/rbpi4-card.jpg"
+                description="Rapsberry Pi 4 memory card"
+              ></Card>
+              <Card
+                image="/img/rbpi4-acrylic-transparent-layer.jpg"
+                description="Rapsberry Pi 4 acrylic transparent layer"
+              ></Card>
+          </Slide>
+        </div>
         {/* End Arch Gallery Section */}
       </div>
     </div>
