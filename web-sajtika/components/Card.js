@@ -4,13 +4,13 @@ import Image from "next/image";
 
 const Card = (props) => {
   return (
-    <div className="w3-card-4 container w3-border-red w3-margin-bottom w3-padding-bottom">
+    <div className="w3-card-4 w3-container w3-border-red w3-margin-bottom w3-padding-16 w3-center">
       <Image
         src={props.image}
         alt="technologies"
-        width="650"
-        height="650"
-        className="w3-image"
+        width="250"
+        height="250"
+        className="w3-image w3-circle w3-hover-opacity"
       />
       <div className="w3-container w3-center">
         <p className="w3-text-white">{props.description}</p>
