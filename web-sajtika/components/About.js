@@ -15,7 +15,7 @@ const About = () => {
         <p>Full stack software development team</p>
         <Image
           src="/img/logo.png"
-          alt="me"
+          alt="programerika logo"
           width="650"
           height="650"
           className="w3-image"
@@ -49,7 +49,7 @@ const About = () => {
         <div className="raspberry-logo w3-center w3-padding">
           <Image
             src="/img/raspberry-pi-logo.jpg"
-            alt="me"
+            alt="raspberry pi logo"
             width="400"
             height="160"
           />

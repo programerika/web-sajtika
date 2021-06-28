@@ -27,6 +27,31 @@ const AboutArch = () => {
           single point of entrance to Kubernetes cluster.
           <br />
         </p>
+        <div className="w3-section w3-center">
+          <h2 className="w3-text-light-grey w3-center">Git Links</h2>
+          <hr style={{ width: "100%" }} className="w3-opacity" />
+          <p>
+            <i className="fa fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right">
+              {" "}
+            </i>{" "}
+            <a href="https://github.com/programerika/web-sajtika">
+              Project repo
+            </a>{" "}
+            <span> | </span>
+            {"   "}
+            <a href="https://github.com/programerika/web-sajtika">
+              GAME FE repo
+            </a>{" "}
+            <span> | </span>
+            {"   "}
+            <a href="https://github.com/programerika/web-sajtika">
+              GAME BE repo
+            </a>
+            {"   "}
+          </p>
+          <br />
+          <br />
+        </div>
         {/* End About Arch Section */}
       </div>
     </div>

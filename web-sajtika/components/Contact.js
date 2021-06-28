@@ -43,7 +43,7 @@ const Contact = () => {
             Bulevar Zorana Djindjica 109-II, Belgrade, Serbia
           </p>
           <Iframe
-            title="map"
+            title="Google map with pointer to Programerika address."
             url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.20328584413!2d20.416029315498456!3d44.81742307909854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a656478659f87%3A0x9aab1cfb873e04ea!2zQnVsZXZhciBab3JhbmEgxJBpbsSRacSHYSAxMDksIEJlb2dyYWQ!5e0!3m2!1sen!2srs!4v1624359442524!5m2!1sen!2srs"
             width="100%"
             height="450"

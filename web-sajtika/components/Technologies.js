@@ -83,38 +83,47 @@ const Technologies = () => {
               <Card
                 image="/img/react-logo.png"
                 description="We can use JS or typescript. Basic react project or with Next.js for full produciton requirements."
+                alt="Picture of React JS logo."
               ></Card>
               <Card
                 image="/img/spring-logo.png"
                 description="One of best platforms for microservice architecture. "
+                alt="Picture of Spring Boot logo."
               ></Card>
               <Card
                 image="/img/mongo-logo.png"
                 description="Document store nosql database"
+                alt="Picture of Mongo DB logo."
               ></Card>
               <Card
                 image="/img/postgresql-logo.jpg"
                 description="Free relational database"
+                alt="Picture of PostgreSQL logo."
               ></Card>
               <Card
                 image="/img/sqlserver-logo.png"
                 description="Relation database with enterprise features"
+                alt="Picture of SQL Server logo."
               ></Card>
               <Card
                 image="/img/kafka-logo.png"
                 description="Message streaming solution mostly used for asynchronous communication between backend services."
+                alt="Picture of Apache Kafka logo."
               ></Card>
               <Card
                 image="/img/rabbit-logo.jpg"
                 description="Message queue solution for asynchronous communication between services focused on specific business cases."
+                alt="Picture of Rabbit MQ logo."
               ></Card>
               <Card
                 image="/img/redis-logo.png"
                 description="Caching solution used to store state and make services stateless."
+                alt="Picture of Redis logo."
               ></Card>
               <Card
                 image="/img/kube-logo.png"
                 description="Microservices deployment orchestration solution."
+                alt="Picture of Kubernetes logo."
               ></Card>
             </Carousel>
           </div>
