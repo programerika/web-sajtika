@@ -19,9 +19,6 @@ export default function Home() {
         <Technologies></Technologies>
         <AboutGame />
         <Contact />
-        <footer className="w3-content w3-padding-64">
-          <p className="w3-center w3-text-gray">Programerika &copy; 2021</p>
-        </footer>
       </div>
     </div>
   );
