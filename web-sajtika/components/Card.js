@@ -9,9 +9,9 @@ const Card = (props) => {
       <Image
         src={props.image}
         alt={props.alt}
-        width="250"
-        height="250"
-        className="w3-image w3-circle w3-hover-opacity"
+        width={props.width}
+        height={props.height}
+        className={`w3-image w3-hover-opacity ` + props.cardClass}
       />
       <div className="w3-container w3-center">
         <p className="w3-text-white">{props.description}</p>

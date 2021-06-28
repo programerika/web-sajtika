@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
         {/* Avatar image in top left corner */}
         <Image src="/img/logo_gray.png" alt="me" width="100" height="100" />
-        <Link href="/">
+        <Link href="/#">
           <a className="w3-bar-item w3-button w3-padding-large w3-hover-black">
             <i className="fa fa-home w3-xxlarge" />
             <p>HOME</p>
