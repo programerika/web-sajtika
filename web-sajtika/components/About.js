@@ -5,24 +5,24 @@ const About = () => {
   return (
     <div>
       {/* Header/Home */}
-      <header
-        className="w3-container w3-padding-20 w3-center w3-black"
-        id="home"
-      >
+      <header className="w3-container w3-padding w3-center w3-black" id="home">
         <h1 className="w3-xxxlarge">
           <span className="w3-hide-small">We are</span> Programerika.
         </h1>
         <p>Full stack software development team</p>
         <Image
           src="/img/logo.png"
-          alt="programerika logo"
-          width="650"
-          height="650"
+          alt="Picture of programerika logo"
+          width="700"
+          height="700"
           className="w3-image"
         />
       </header>
       {/* About Section */}
-      <div className="w3-content w3-justify w3-text-grey" id="about">
+      <div
+        className="w3-content w3-justify w3-text-grey w3-padding-24"
+        id="about"
+      >
         <h2 className="w3-text-light-grey w3-center">About us</h2>
         <hr style={{ width: "100%" }} className="w3-opacity" />
         <p>
@@ -49,7 +49,7 @@ const About = () => {
         <div className="raspberry-logo w3-center w3-padding">
           <Image
             src="/img/raspberry-pi-logo.jpg"
-            alt="raspberry pi logo"
+            alt="Picture of raspberry pi logo"
             width="400"
             height="160"
           />

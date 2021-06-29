@@ -39,9 +39,9 @@ const Technologies = () => {
             <Carousel
               autoPlay
               additionalTransfrom={0}
-              arrows
+              arrows={false}
               autoPlaySpeed={2000}
-              centerMode
+              //centerMode
               className=""
               containerClass="container-with-dots"
               dotListClass=""
