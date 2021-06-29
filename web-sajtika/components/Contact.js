@@ -21,7 +21,7 @@ const Contact = () => {
             </a>{" "}
             <span> | </span>
             {"   "}
-            <a href="https://github.com/programerika/web-sajtika">
+            <a href="https://github.com/programerika/web-gejmika-frontend">
               GAME FE repo
             </a>{" "}
             <span> | </span>
