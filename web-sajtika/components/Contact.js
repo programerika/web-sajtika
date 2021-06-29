@@ -16,17 +16,17 @@ const Contact = () => {
             <i className="fa fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right">
               {" "}
             </i>{" "}
-            <a href="https://github.com/programerika/web-sajtika">
+            <a href="https://github.com/programerika/web-sajtika" target="_blank">
               Project repo
             </a>{" "}
             <span> | </span>
             {"   "}
-            <a href="https://github.com/programerika/web-gejmika-frontend">
+            <a href="https://github.com/programerika/web-gejmika-frontend" target="_blank">
               GAME FE repo
             </a>{" "}
             <span> | </span>
             {"   "}
-            <a href="https://github.com/programerika/web-sajtika">
+            <a href="https://github.com/programerika/web-sajtika" target="_blank">
               GAME BE repo
             </a>
             {"   "}
