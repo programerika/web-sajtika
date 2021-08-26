@@ -5,7 +5,7 @@ import Image from "next/image";
 const Card = (props) => {
   return (
     // Card used in carousel slide shows
-    <div className="w3-card-4 w3-container w3-border-red w3-margin-bottom w3-padding-16 w3-center">
+    <div className="w3-card-4 w3-container w3-border-red w3-margin-bottom w3-padding-16 w3-center carousel-card">
       <Image
         src={props.image}
         alt={props.alt}
@@ -13,8 +13,9 @@ const Card = (props) => {
         height={props.height}
         className={`w3-image w3-hover-opacity ` + props.cardClass}
       />
-      <div className="w3-container w3-center">
-        <p className="w3-text-white">{props.description}</p>
+      <div className="w3-container w3-center carousel-description">
+        <h5 className="w3-text-white">{props.title}</h5>
+        <p className="">{props.description}</p>
       </div>
     </div>
   );

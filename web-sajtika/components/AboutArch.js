@@ -7,7 +7,7 @@ const AboutArch = () => {
       {/* About Arch Section */}
       <div className="w3-content w3-justify w3-text-grey" id="game">
         <h2 className="w3-text-light-grey w3-center">Architecture</h2>
-        <hr style={{ width: "100%" }} className="w3-opacity" />
+        <hr className="w3-opacity w3-width-100" />
         <p>
           We designed architecture with having in mind that we want to make a
           demo. We are aware that such architecture is overhead for such small
@@ -28,23 +28,32 @@ const AboutArch = () => {
           <br />
         </p>
         <div className="w3-section w3-center">
-          <h2 className="w3-text-light-grey w3-center">Git Links</h2>
-          <hr style={{ width: "100%" }} className="w3-opacity" />
+          {/* <h2 className="w3-text-light-grey w3-center">Git Links</h2>
+          <hr className="w3-opacity w3-width-100" /> */}
           <p>
             <i className="fa fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right">
               {" "}
             </i>{" "}
-            <a href="https://github.com/programerika/web-sajtika" target="_blank">
+            <a
+              href="https://github.com/programerika/web-sajtika"
+              target="_blank"
+            >
               Project repo
             </a>{" "}
             <span> | </span>
             {"   "}
-            <a href="https://github.com/programerika/web-gejmika-frontend" target="_blank">
+            <a
+              href="https://github.com/programerika/web-gejmika-frontend"
+              target="_blank"
+            >
               GAME FE repo
             </a>{" "}
             <span> | </span>
             {"   "}
-            <a href="https://github.com/programerika/web-sajtika" target="_blank">
+            <a
+              href="https://github.com/programerika/web-sajtika"
+              target="_blank"
+            >
               GAME BE repo
             </a>
             {"   "}

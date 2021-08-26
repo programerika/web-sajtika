@@ -745,6 +745,7 @@ a {
     margin: 0 10px;
     width: auto !important;
   }
+
   .w3-modal {
     padding-top: 30px;
   }
@@ -1090,6 +1091,43 @@ a {
 .w3-opacity-min {
   opacity: 0.75;
 }
+.w3-width-100 {
+  width: 100%;
+}
+
+.carousel-container {
+  padding-bottom: "30px";
+  margin-bottom: 30px;
+  position: "relative";
+}
+
+.carousel-card {
+  background-color: rgb(29, 28, 28);
+  margin: 5px;
+  border-radius: 5%;
+  /* min-height: fit-content; */
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: fit-content; */
+  /* width: fit-content; */
+}
+
+.carousel-description {
+  /* padding: 5px; */
+  /* margin: 5px; */
+  margin-bottom: 5px;
+  height: 150px;
+  min-height: fit-content;
+  /* min-width: fit-content; */
+}
+
+.react-multi-carousel-dot-list {
+  position: relative !important;
+}
+
 .w3-greyscale-max,
 .w3-grayscale-max,
 .w3-hover-greyscale:hover,

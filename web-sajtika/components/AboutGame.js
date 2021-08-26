@@ -11,7 +11,7 @@ const AboutGame = () => {
         id="game"
       >
         <h2 className="w3-text-light-grey w3-center">Game</h2>
-        <hr style={{ width: "100%" }} className="w3-opacity" />
+        <hr className="w3-opacity w3-width-100" />
         {/* Game image goes here*/}
         {/*<div className="w3-center w3-padding">
                     <Image

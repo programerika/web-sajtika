@@ -28,7 +28,7 @@ const About = () => {
         id="about"
       >
         <h2 className="w3-text-light-grey w3-center">About us</h2>
-        <hr style={{ width: "100%" }} className="w3-opacity" />
+        <hr className="w3-opacity w3-width-100" />
         <p>
           Full stack software developer team from Serbia striving to design and
           implement efficient software solutions for it’s customers. We prepared

@@ -9,8 +9,8 @@ const responsive = {
   1024: { items: 3 },
 };
 
-const width = 250;
-const height = 250;
+const width = 150;
+const height = 150;
 const cardClass = "w3-circle";
 
 const Technologies = () => {
@@ -21,7 +21,7 @@ const Technologies = () => {
         id="technologies"
       >
         <h2 className="w3-text-light-grey w3-center">Technologies We Use</h2>
-        <hr style={{ width: "100%" }} className="w3-opacity" />
+        <hr className="w3-opacity w3-width-100" />
         <p>
           We are eager to work on projects using following technologies. Of
           course we have experiences with other technologies too and we can work
@@ -30,12 +30,7 @@ const Technologies = () => {
         <br />
         <br />
         <div className="w3-section">
-          <div
-            style={{
-              paddingBottom: "30px",
-              position: "relative",
-            }}
-          >
+          <div className="carousel-container">
             <Carousel
               autoPlay={false}
               additionalTransfrom={0}
@@ -64,7 +59,7 @@ const Technologies = () => {
                 },
                 mobile: {
                   breakpoint: {
-                    max: 464,
+                    max: 685,
                     min: 0,
                   },
                   items: 1,
@@ -73,7 +68,7 @@ const Technologies = () => {
                 tablet: {
                   breakpoint: {
                     max: 1024,
-                    min: 464,
+                    min: 685,
                   },
                   items: 2,
                   partialVisibilityGutter: 30,
@@ -87,6 +82,7 @@ const Technologies = () => {
               <Card
                 image="/img/react-logo.png"
                 description="We can use JS or typescript. Basic react project or with Next.js for full produciton requirements."
+                title="React JS"
                 alt="Picture of React JS logo."
                 width={width}
                 height={height}
@@ -95,6 +91,7 @@ const Technologies = () => {
               <Card
                 image="/img/spring-logo.png"
                 description="One of best platforms for microservice architecture. "
+                title="Spring Boot"
                 alt="Picture of Spring Boot logo."
                 width={width}
                 height={height}
@@ -103,6 +100,7 @@ const Technologies = () => {
               <Card
                 image="/img/mongo-logo.png"
                 description="Document store nosql database"
+                title="Mongo DB"
                 alt="Picture of Mongo DB logo."
                 width={width}
                 height={height}
@@ -111,6 +109,7 @@ const Technologies = () => {
               <Card
                 image="/img/postgresql-logo.jpg"
                 description="Free relational database"
+                title="PostgreSQL"
                 alt="Picture of PostgreSQL logo."
                 width={width}
                 height={height}
@@ -119,6 +118,7 @@ const Technologies = () => {
               <Card
                 image="/img/sqlserver-logo.png"
                 description="Relation database with enterprise features"
+                title="SQL Server"
                 alt="Picture of SQL Server logo."
                 width={width}
                 height={height}
@@ -127,6 +127,7 @@ const Technologies = () => {
               <Card
                 image="/img/kafka-logo.png"
                 description="Message streaming solution mostly used for asynchronous communication between backend services."
+                title="Apache Kafka"
                 alt="Picture of Apache Kafka logo."
                 width={width}
                 height={height}
@@ -135,6 +136,7 @@ const Technologies = () => {
               <Card
                 image="/img/rabbit-logo.jpg"
                 description="Message queue solution for asynchronous communication between services focused on specific business cases."
+                title="Rabbit MQ"
                 alt="Picture of Rabbit MQ logo."
                 width={width}
                 height={height}
@@ -143,6 +145,7 @@ const Technologies = () => {
               <Card
                 image="/img/redis-logo.png"
                 description="Caching solution used to store state and make services stateless."
+                title="Redis"
                 alt="Picture of Redis logo."
                 width={width}
                 height={height}
@@ -151,6 +154,7 @@ const Technologies = () => {
               <Card
                 image="/img/kube-logo.png"
                 description="Microservices deployment orchestration solution."
+                title="Kubernetes"
                 alt="Picture of Kubernetes logo."
                 width={width}
                 height={height}
