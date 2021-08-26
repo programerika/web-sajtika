@@ -17,6 +17,7 @@
     "react-multi-carousel": "^2.6.3",
     "react-slideshow-image": "^3.4.7",
     "w3-css": "^4.1.0",
+    "web-gejmika-front": "^0.1.0",
     "web-gejmika-frontend": "^0.1.0"
   },
   "devDependencies": {

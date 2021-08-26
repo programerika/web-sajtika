@@ -5,18 +5,22 @@ const About = () => {
   return (
     <div>
       {/* Header/Home */}
-      <header className="w3-container w3-padding w3-center w3-black" id="home">
+      <header
+        className="w3-container w3-padding w3-center w3-black w3-padding-32"
+        id="home"
+      >
         <h1 className="w3-xxxlarge">
-          <span className="w3-hide-small">We are</span> Programerika.
+          <span className="w3-hide-small">We are</span>
         </h1>
-        <p>Full stack software development team</p>
+
         <Image
           src="/img/logo.png"
           alt="Picture of programerika logo"
-          width="700"
-          height="700"
+          width="400"
+          height="400"
           className="w3-image"
         />
+        <p>Software engineering team</p>
       </header>
       {/* About Section */}
       <div

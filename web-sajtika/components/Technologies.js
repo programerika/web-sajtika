@@ -37,9 +37,9 @@ const Technologies = () => {
             }}
           >
             <Carousel
-              autoPlay
+              autoPlay={false}
               additionalTransfrom={0}
-              arrows={false}
+              arrows={true}
               autoPlaySpeed={2000}
               //centerMode
               className=""

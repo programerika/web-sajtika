@@ -39,12 +39,15 @@ const Navbar = () => {
         </Link>
       </nav>
       {/* Navbar on small screens (Hidden on medium and large screens) */}
-      <div className="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+      <div
+        className="w3-top w3-hide-large w3-hide-medium w3-center"
+        id="myNavbar"
+      >
         <div className="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
           <Link href="/">
             <a
               className="w3-bar-item w3-button"
-              style={{ width: "20% !important" }}
+              // style={{ width: "18% !important" }}
             >
               HOME
             </a>
@@ -52,7 +55,7 @@ const Navbar = () => {
           <Link href="/#about">
             <a
               className="w3-bar-item w3-button"
-              style={{ width: "20% !important" }}
+              // style={{ width: "18% !important" }}
             >
               ABOUT
             </a>
@@ -60,7 +63,7 @@ const Navbar = () => {
           <Link href="/#technologies">
             <a
               className="w3-bar-item w3-button"
-              style={{ width: "20% !important" }}
+              // style={{ width: "18% !important" }}
             >
               TECH
             </a>
@@ -68,15 +71,15 @@ const Navbar = () => {
           <Link href="/#game">
             <a
               className="w3-bar-item w3-button"
-              style={{ width: "20% !important" }}
+              // style={{ width: "18% !important" }}
             >
               GAME
             </a>
           </Link>
           <Link href="/#contact">
             <a
-              className="w3-bar-item w3-button"
-              style={{ width: "20% !important" }}
+              className="w3-bar-item w3-button w3-center"
+              // style={{ width: "25% !important" }}
             >
               CONTACT
             </a>
