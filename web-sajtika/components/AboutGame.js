@@ -13,14 +13,14 @@ const AboutGame = () => {
         <h2 className="w3-text-light-grey w3-center">Game</h2>
         <hr className="w3-opacity w3-width-100" />
         {/* Game image goes here*/}
-        {/*<div className="w3-center w3-padding">
-                    <Image
-                        src="/img/raspberry-pi-logo.jpg"
-                        alt="me"
-                        width="400"
-                        height="160"
-                    />
-                </div>*/}
+        <div className="w3-center w3-padding">
+          <Image
+            src="/img/GameInProgress.png"
+            alt="me"
+            width="400"
+            height="500"
+          />
+        </div>
         <p>
           This is code guess game, based on bulls and cows game. It is developed
           in React.js + Next.js in front end and Java Spring boot with MongoDB
@@ -33,12 +33,19 @@ const AboutGame = () => {
           <br></br>
           On following GIT links you can review game source code organized into
           two git repositories for front end project and back end project.
-          <Link href="/game">
-            <a> Play!</a>
-          </Link>
-          <br />
-          {/*TODO - add links to github game repositories*/}
+          <br></br>
+          <br></br>
         </p>
+        <div className="w3-center">
+          <Link href="/game" className="w3-center">
+            <button className="w3-btn w3-ripple w3-teal w3-hover-aqua w3-round-xlarge w3-large w3-padding-large">
+              <a> Play!</a>
+            </button>
+          </Link>
+        </div>
+        <br />
+        {/*TODO - add links to github game repositories*/}
+
         {/* End About Game Section */}
       </div>
     </div>
