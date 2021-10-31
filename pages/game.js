@@ -1,10 +1,17 @@
 import React from "react";
-import { HelloComponent } from 'web-gejmika-frontend/dist/index'
+import dynamic from "next/dynamic";
+
+const WebGejmika = dynamic(
+  () => {
+    return import("web-gejmika-front-test10");
+  },
+  { ssr: false }
+);
 
 const game = () => {
   return (
     <div className="w3-padding-large w3-center" id="main">
-      <HelloComponent />
+      <WebGejmika/>
     </div>
   );
 };
