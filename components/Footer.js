@@ -12,6 +12,7 @@ const Footer = () => {
             <a
               href="https://github.com/programerika/web-sajtika"
               target="_blank"
+              rel="noreferrer"
             >
               Project repo
             </a>{" "}
@@ -20,6 +21,7 @@ const Footer = () => {
             <a
               href="https://github.com/programerika/web-gejmika-frontend"
               target="_blank"
+              rel="noreferrer"
             >
               GAME FE repo
             </a>{" "}
@@ -28,6 +30,7 @@ const Footer = () => {
             <a
               href="https://github.com/programerika/web-sajtika"
               target="_blank"
+              rel="noreferrer"
             >
               GAME BE repo
             </a>
