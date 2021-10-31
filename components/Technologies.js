@@ -3,21 +3,15 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from "./Card";
 
-const responsive = {
-  0: { items: 1 },
-  568: { items: 2 },
-  1024: { items: 3 },
-};
-
-const width = 150;
-const height = 150;
+const width = 120;
+const height = 120;
 const cardClass = "w3-circle";
 
 const Technologies = () => {
   return (
     <>
       <div
-        className="w3-padding-64 w3-content w3-text-grey w3-justify"
+        className="w3-padding-16 w3-content w3-text-grey w3-justify"
         id="technologies"
       >
         <h2 className="w3-text-light-grey w3-center">Technologies We Use</h2>
@@ -52,25 +46,33 @@ const Technologies = () => {
                 desktop: {
                   breakpoint: {
                     max: 3000,
-                    min: 1024,
+                    min: 1200,
                   },
-                  items: 3,
+                  items: 4,
                   partialVisibilityGutter: 40,
                 },
+                tablet: {
+                  breakpoint: {
+                    max: 1200,
+                    min: 900,
+                  },
+                  items: 3,
+                  partialVisibilityGutter: 30,
+                },
+                mobileBig: {
+                  breakpoint: {
+                    max: 900,
+                    min: 685,
+                  },
+                  items: 2,
+                  partialVisibilityGutter: 30,
+                },                
                 mobile: {
                   breakpoint: {
                     max: 685,
                     min: 0,
                   },
                   items: 1,
-                  partialVisibilityGutter: 30,
-                },
-                tablet: {
-                  breakpoint: {
-                    max: 1024,
-                    min: 685,
-                  },
-                  items: 2,
                   partialVisibilityGutter: 30,
                 },
               }}

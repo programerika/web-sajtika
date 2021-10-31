@@ -6,25 +6,25 @@ const About = () => {
     <div>
       {/* Header/Home */}
       <header
-        className="w3-container w3-padding w3-center w3-black w3-padding-32"
+        className="w3-container w3-padding w3-center w3-black w3-padding-16"
         id="home"
       >
-        <h1 className="w3-xxxlarge">
+        <h1 className="w3-xxlarge">
           <span className="w3-hide-small">We are</span>
         </h1>
 
         <Image
           src="/img/logo.png"
           alt="Picture of programerika logo"
-          width="400"
-          height="400"
+          width="300"
+          height="300"
           className="w3-image"
         />
         <p>Software engineering team</p>
       </header>
       {/* About Section */}
       <div
-        className="w3-content w3-justify w3-text-grey w3-padding-24"
+        className="w3-content w3-justify w3-text-grey w3-padding-16"
         id="about"
       >
         <h2 className="w3-text-light-grey w3-center">About us</h2>
@@ -45,7 +45,7 @@ const About = () => {
           Architecture of system that hosts this site is based on Kubernetes
           high availability cluster deployed on Raspberry Pi devices …
           <Link href="/arch">
-            <a>MORE</a>
+            <a className="w3-text-white">MORE</a>
           </Link>
           <br></br>
           <br></br>

@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="w3-padding-large" id="main">
-      <footer className="w3-content w3-padding-64">
+      <footer className="w3-content w3-padding-16">
         <div className="w3-section w3-center">
           <p className="w3-text-gray">
             <i className="fa fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right">

@@ -6,7 +6,7 @@ const Contact = () => {
     <>
       {/* Contact Section */}
       <div
-        className="w3-padding-64 w3-content w3-text-grey w3-justify"
+        className="w3-padding-16 w3-content w3-text-grey w3-justify"
         id="contact"
       >
         <h2 className="w3-text-light-grey w3-center">Contact Us</h2>
