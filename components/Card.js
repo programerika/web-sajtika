@@ -1,5 +1,4 @@
 import React from "react";
-import "w3-css/w3.css";
 import Image from "next/image";
 
 const Card = (props) => {
