@@ -15,9 +15,11 @@ const game = () => {
         className="w3-content w3-justify w3-text-grey w3-padding-16"
         id="game"
       >
-      <h2 className="w3-text-light-grey w3-center">Demo game</h2>
-      <hr className="w3-opacity w3-width-100" />
-      <WebGejmika/>
+        <h2 className="w3-text-light-grey w3-center">Demo game</h2>
+        <hr className="w3-opacity w3-width-100" />
+        <div className="w3-padding-16">
+          <WebGejmika />
+        </div>
       </div>
     </div>
   );
