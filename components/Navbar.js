@@ -25,10 +25,10 @@ const Navbar = () => {
             <p>TECH</p>
           </a>
         </Link>
-        <Link href="/#game">
+        <Link href="/#demo">
           <a className="w3-bar-item w3-button w3-padding-large w3-hover-black">
             <i className="fa fa-gamepad w3-xxlarge"></i>
-            <p>GAME</p>
+            <p>DEMO</p>
           </a>
         </Link>
         <Link href="/#contact">
@@ -68,12 +68,12 @@ const Navbar = () => {
               TECH
             </a>
           </Link>
-          <Link href="/#game">
+          <Link href="/#demo">
             <a
               className="w3-bar-item w3-button"
               // style={{ width: "18% !important" }}
             >
-              GAME
+              DEMO
             </a>
           </Link>
           <Link href="/#contact">

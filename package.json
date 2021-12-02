@@ -17,7 +17,7 @@
     "react-multi-carousel": "^2.6.3",
     "react-slideshow-image": "^3.4.7",
     "w3-css": "^4.1.0",
-    "web-gejmika-front-test10": "file:../web-gejmika-front/web-gejmika-front-test10-0.1.0.tgz"
+    "web-gejmika-front": "^1.0.1"
   },
   "devDependencies": {
     "eslint": "7.29.0",

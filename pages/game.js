@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 
 const WebGejmika = dynamic(
   () => {
-    return import("web-gejmika-front-test10");
+    return import("web-gejmika-front");
   },
   { ssr: false }
 );
