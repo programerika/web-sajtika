@@ -18,7 +18,7 @@ const AboutGame = () => {
             <Image
               src="/img/GameInProgress.png"
               alt="me"
-              width="400"
+              width="300"
               height="500"
             />
           </div>
