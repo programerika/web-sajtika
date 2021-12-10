@@ -5,7 +5,10 @@ const AboutArch = () => {
   return (
     <div>
       {/* About Arch Section */}
-      <div className="w3-content w3-justify w3-text-grey w3-padding-16" id="game">
+      <div
+        className="w3-content w3-justify w3-text-grey w3-padding-16"
+        id="game"
+      >
         <h2 className="w3-text-light-grey w3-center">Architecture</h2>
         <hr className="w3-opacity w3-width-100" />
         <p>
@@ -37,7 +40,11 @@ const AboutArch = () => {
               <tbody>
                 <tr>
                   <td className="w3-text-white">
-                    <a href="https://github.com/programerika/web-sajtika" target="_blank" rel="noreferrer">
+                    <a
+                      href="https://github.com/programerika/web-sajtika"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Project repo
                     </a>
                   </td>
@@ -45,12 +52,17 @@ const AboutArch = () => {
                     <span> | </span>
                   </td>
                   <td>
-                    Web site GIT repository. Technologies React.js + Next.js. Styles w3.css with small ajustments.
+                    Web site GIT repository. Technologies React.js + Next.js.
+                    Styles w3.css with small ajustments.
                   </td>
                 </tr>
                 <tr>
                   <td className="w3-text-white">
-                    <a href="https://github.com/programerika/web-gejmika-frontend" target="_blank" rel="noreferrer">
+                    <a
+                      href="https://github.com/programerika/web-gejmika-front"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       GAME FE repo
                     </a>
                   </td>
@@ -58,13 +70,18 @@ const AboutArch = () => {
                     <span> | </span>
                   </td>
                   <td>
-                    Code guess game front-end GIT repository. Technologies React.js with Redux.
-                    Used CSS module with local styles. Deployed as webpacked component with inlined resources.
+                    Code guess game front-end GIT repository. Technologies
+                    React.js with Redux. Used CSS module with local styles.
+                    Deployed as webpacked component with inlined resources.
                   </td>
                 </tr>
                 <tr>
                   <td className="w3-text-white">
-                    <a href="https://github.com/programerika/web-sajtika" target="_blank" rel="noreferrer">
+                    <a
+                      href="https://github.com/programerika/web-gejmika-back"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       GAME BE repo
                     </a>
                   </td>
@@ -72,14 +89,13 @@ const AboutArch = () => {
                     <span> | </span>
                   </td>
                   <td>
-                    Code guess game back-end GIT repository. Technologies Java Springboot with MongoDB database.
+                    Code guess game back-end GIT repository. Technologies Java
+                    Springboot with MongoDB database.
                   </td>
-
                 </tr>
               </tbody>
             </table>
           </div>
-
         </div>
         {/* End About Arch Section */}
       </div>
