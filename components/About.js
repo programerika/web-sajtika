@@ -33,8 +33,11 @@ const About = () => {
           Full stack software developer team from Serbia striving to design and
           implement efficient software solutions for it’s customers. We prepared
           this site with some dynamic content using React.js + Next.js and some
-          Spring boot backend to show what we can do. You can review our game
-          (ref link) design and implementation, or you can play it. <br></br>
+          Spring boot backend for demo purposes. You can review our{" "}
+          <Link href="/#demo">
+            <a className="w3-text-white">game</a>
+          </Link>{" "}
+          design and implementation, or you can play it. <br></br>
           <br></br>
           Our team is consisted of software developer professionals having team
           leads with more than 20 years of experience in software development
@@ -52,10 +55,10 @@ const About = () => {
         </p>
         <div className="raspberry-logo w3-center w3-padding">
           <Image
-            src="/img/raspberry-pi-logo.jpg"
+            src="/img/Cover-1-2M.jpg"
             alt="Picture of raspberry pi logo"
-            width="400"
-            height="160"
+            width="2294"
+            height="913"
           />
         </div>
         {/* End About Section */}

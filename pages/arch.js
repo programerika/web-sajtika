@@ -7,11 +7,7 @@ const arch = () => {
   return (
     <div className="w3-padding-large" id="main">
       <AboutArch></AboutArch>
-
-      {/* TODO ADD Arch Diagram */}
       <Diagram />
-
-      {/* TODO ADD Arch Gallery */}
       <ArchGallery />
 
       {/* TODO ADD Git Links */}

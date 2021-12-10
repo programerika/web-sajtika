@@ -19,7 +19,7 @@ const Footer = () => {
             <span> | </span>
             {"   "}
             <a
-              href="https://github.com/programerika/web-gejmika-frontend"
+              href="https://github.com/programerika/web-gejmika-front"
               target="_blank"
               rel="noreferrer"
             >
@@ -28,7 +28,7 @@ const Footer = () => {
             <span> | </span>
             {"   "}
             <a
-              href="https://github.com/programerika/web-sajtika"
+              href="https://github.com/programerika/web-gejmika-back"
               target="_blank"
               rel="noreferrer"
             >

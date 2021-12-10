@@ -4,8 +4,8 @@ import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
 const ArchGallery = () => {
-  const width = 500;
-  const height = 450;
+  const width = 700;
+  const height = 500;
 
   return (
     <div>
@@ -19,51 +19,26 @@ const ArchGallery = () => {
         <div className="slide-container w3-center w3-panel">
           <Slide autoplay={Infinity} canSwipe>
             <Card
-              image="/img/rbpi4-setup.jpg"
-              title="Rapsberry Pi 4 setup"
-              alt="Rapsberry Pi 4 setup"
+              image="/img/Arch-1-2M.jpg"
+              alt="Raspberry Pi 4 cluster"
               width={width}
               height={height}
             ></Card>
             <Card
-              image="/img/rbpi4-setup-1.jpg"
-              title="Rapsberry Pi 4 another setup"
-              alt="Rapsberry Pi 4 another setup"
+              image="/img/Arch-2-2M.jpg"
+              alt="Raspberry Pi 4 cluster"
               width={width}
               height={height}
             ></Card>
             <Card
-              image="/img/rbpi4-cooler-set.jpg"
-              title="Rapsberry Pi 4 cooler set"
-              alt="Rapsberry Pi 4 cooler set"
+              image="/img/Arch-3-2M.jpg"
+              alt="Raspberry Pi 4 cluster"
               width={width}
               height={height}
             ></Card>
             <Card
-              image="/img/rbpi4-coolers.jpg"
-              title="Rapsberry Pi 4 coolers"
-              alt="Rapsberry Pi 4 coolers"
-              width={width}
-              height={height}
-            ></Card>
-            <Card
-              image="/img/rbpi4-hdmi.jpg"
-              title="Rapsberry Pi 4 HDMI cable"
-              alt="Rapsberry Pi 4 HDMI cable"
-              width={width}
-              height={height}
-            ></Card>
-            <Card
-              image="/img/rbpi4-card.jpg"
-              title="Rapsberry Pi 4 memory card"
-              alt="Rapsberry Pi 4 memory card"
-              width={width}
-              height={height}
-            ></Card>
-            <Card
-              image="/img/rbpi4-acrylic-transparent-layer.jpg"
-              title="Rapsberry Pi 4 acrylic transparent layer"
-              alt="Rapsberry Pi 4 acrylic transparent layer"
+              image="/img/kubectl.png"
+              alt="Raspberry Pi 4 cluster"
               width={width}
               height={height}
             ></Card>
