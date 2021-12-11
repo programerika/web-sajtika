@@ -17,7 +17,7 @@ const ArchGallery = () => {
         {/* TODO Add Gallery here */}
 
         <div className="slide-container w3-center w3-panel">
-          <Slide autoplay={Infinity} canSwipe>
+          <Slide autoplay={true} canSwipe>
             <Card
               image="/img/Arch-1-2M.jpg"
               alt="Raspberry Pi 4 cluster"

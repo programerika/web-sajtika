@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import logo from "../public/img/logo.png";
 
 const About = () => {
   return (
@@ -14,11 +15,13 @@ const About = () => {
         </h1>
 
         <Image
-          src="/img/logo.png"
-          alt="Picture of programerika logo"
+          src={logo}
+          alt="Programerika logo"
+          className="w3-image"
           width="300"
           height="300"
-          className="w3-image"
+          priority
+          placeholder="blur"
         />
         <p>Software engineering team</p>
       </header>
@@ -56,7 +59,7 @@ const About = () => {
         <div className="raspberry-logo w3-center w3-padding">
           <Image
             src="/img/Cover-1-2M.jpg"
-            alt="Picture of raspberry pi logo"
+            alt="Raspberry pi cluster"
             width="2294"
             height="913"
           />
