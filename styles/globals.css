@@ -1,0 +1,85 @@
+/* Styles from head tag*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+.w3-row-padding img {
+  margin-bottom: 12px;
+}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+  width: 120px !important;
+  background: #222 !important;
+}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+  margin-left: 120px;
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+  #main {
+    margin-left: 0;
+  }
+}
+
+/* Styles from head tag done*/
+
+
+.carousel-container {
+  padding-bottom: "30px";
+  margin-bottom: 30px;
+  position: "relative";
+}
+
+.carousel-card {
+  background-color: rgb(29, 28, 28);
+  margin: 5px;
+  border-radius: 5%;
+  /* min-height: fit-content; */
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: fit-content; */
+  /* width: fit-content; */
+}
+
+.carousel-description {
+  /* padding: 5px; */
+  /* margin: 5px; */
+  margin-bottom: 5px;
+  height: 200px;
+  min-height: fit-content;
+  /* min-width: fit-content; */
+}
+
+.carousel-description-small {
+  margin-bottom: 5px;  
+  min-height: fit-content;
+}
+
+.react-multi-carousel-dot-list {
+  position: relative !important;
+}
+
+/* GIT links flex - w3 is missing flex */
+.flex-container-git-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-panel-git-logo {
+  flex: 25%;
+}
+.flex-panel-git-links {
+  flex: 75%;
+  flex-basis: 600px;
+}
