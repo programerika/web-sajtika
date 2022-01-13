@@ -17,4 +17,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Offical web 
 
-Official web site is availabe on [Programerika site] - (https://www.programerika.com/) 
+Official web site is availabe on - (https://www.programerika.com/) 
