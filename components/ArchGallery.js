@@ -2,6 +2,10 @@ import React from "react";
 import Card from "./Card";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
+import raspberryPi1 from "../public/img/Arch-1-2M.jpg";
+import raspberryPi2 from "../public/img/Arch-2-2M.jpg";
+import raspberryPi3 from "../public/img/Arch-3-2M.jpg";
+import kubectl from "../public/img/kubectl.png";
 
 const ArchGallery = () => {
   const width = 700;
@@ -19,25 +23,25 @@ const ArchGallery = () => {
         <div className="slide-container w3-center w3-panel">
           <Slide autoplay={true} canSwipe>
             <Card
-              image="/img/Arch-1-2M.jpg"
+              image={raspberryPi1}
               alt="Raspberry Pi 4 cluster"
               width={width}
               height={height}
             ></Card>
             <Card
-              image="/img/Arch-2-2M.jpg"
+              image={raspberryPi2}
               alt="Raspberry Pi 4 cluster"
               width={width}
               height={height}
             ></Card>
             <Card
-              image="/img/Arch-3-2M.jpg"
+              image={raspberryPi3}
               alt="Raspberry Pi 4 cluster"
               width={width}
               height={height}
             ></Card>
             <Card
-              image="/img/kubectl.png"
+              image={kubectl}
               alt="Raspberry Pi 4 cluster"
               width={width}
               height={height}
