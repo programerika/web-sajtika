@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../public/img/logo.png";
+import Raspberry from "../public/img/Cover-1-2M.jpg";
 
 const About = () => {
   return (
@@ -13,7 +14,6 @@ const About = () => {
         <h1 className="w3-xxlarge">
           <span className="w3-hide-small">We are</span>
         </h1>
-
         <Image
           src={logo}
           alt="Programerika logo"
@@ -56,14 +56,15 @@ const About = () => {
           <br></br>
           <br></br>
         </p>
-        <div className="raspberry-logo w3-center w3-padding">
-          <Image
-            src="/img/Cover-1-2M.jpg"
-            alt="Raspberry pi cluster"
-            width="2294"
-            height="913"
-          />
-        </div>
+        <Image
+          src={Raspberry}
+          alt="Raspberry pi cluster"
+          className="w3-image"
+          width="2294"
+          height="913"
+          priority
+          placeholder="blur"
+        />
         {/* End About Section */}
       </div>
     </div>
