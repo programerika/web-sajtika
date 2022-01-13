@@ -5,6 +5,10 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+        <link
+            rel="favicon"
+            href="../public/favicon.ico"
+          />          
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Montserrat"
