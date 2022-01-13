@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import gameInProg from "../public/img/GameInProgress.png"
 
 const AboutGame = () => {
   return (
@@ -16,7 +17,7 @@ const AboutGame = () => {
         <div className="w3-responsive">
           <div className="w3-center w3-padding w3-third">
             <Image
-              src="/img/GameInProgress.png"
+              src={gameInProg}
               alt="me"
               width="300"
               height="500"

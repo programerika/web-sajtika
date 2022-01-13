@@ -2,6 +2,15 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from "./Card";
+import reactLogo from "../public/img/react-logo.png"
+import springLogo from "../public/img/spring-logo.png"
+import mongoLogo from "../public/img/mongo-logo.png"
+import postgresqlLogo from "../public/img/postgresql-logo.jpg"
+import sqlserverLogo from "../public/img/sqlserver-logo.png"
+import kafkaLogo from "../public/img/kafka-logo.png"
+import rabbitLogo from "../public/img/rabbit-logo.jpg"
+import redisLogo from "../public/img/redis-logo.png"
+import kubeLogo from "../public/img/kube-logo.png"
 
 const width = 120;
 const height = 120;
@@ -82,7 +91,7 @@ const Technologies = () => {
               swipeable
             >
               <Card
-                image="/img/react-logo.png"
+                image={reactLogo}
                 description="We can use JS or typescript. Basic react project or with Next.js for full produciton requirements."
                 title="React JS"
                 alt="Picture of React JS logo."
@@ -91,7 +100,7 @@ const Technologies = () => {
                 cardClass={cardClass}
               ></Card>
               <Card
-                image="/img/spring-logo.png"
+                image={springLogo}
                 description="One of best platforms for microservice architecture. "
                 title="Spring Boot"
                 alt="Picture of Spring Boot logo."
@@ -100,7 +109,7 @@ const Technologies = () => {
                 cardClass={cardClass}
               ></Card>
               <Card
-                image="/img/mongo-logo.png"
+                image={mongoLogo}
                 description="Document store nosql database"
                 title="Mongo DB"
                 alt="Picture of Mongo DB logo."
@@ -109,7 +118,7 @@ const Technologies = () => {
                 cardClass={cardClass}
               ></Card>
               <Card
-                image="/img/postgresql-logo.jpg"
+                image={postgresqlLogo}
                 description="Free relational database"
                 title="PostgreSQL"
                 alt="Picture of PostgreSQL logo."
@@ -118,7 +127,7 @@ const Technologies = () => {
                 cardClass={cardClass}
               ></Card>
               <Card
-                image="/img/sqlserver-logo.png"
+                image={sqlserverLogo}
                 description="Relation database with enterprise features"
                 title="SQL Server"
                 alt="Picture of SQL Server logo."
@@ -127,7 +136,7 @@ const Technologies = () => {
                 cardClass={cardClass}
               ></Card>
               <Card
-                image="/img/kafka-logo.png"
+                image={kafkaLogo}
                 description="Message streaming solution mostly used for asynchronous communication between backend services."
                 title="Apache Kafka"
                 alt="Picture of Apache Kafka logo."
@@ -136,7 +145,7 @@ const Technologies = () => {
                 cardClass={cardClass}
               ></Card>
               <Card
-                image="/img/rabbit-logo.jpg"
+                image={rabbitLogo}
                 description="Message queue solution for asynchronous communication between services focused on specific business cases."
                 title="Rabbit MQ"
                 alt="Picture of Rabbit MQ logo."
@@ -145,7 +154,7 @@ const Technologies = () => {
                 cardClass={cardClass}
               ></Card>
               <Card
-                image="/img/redis-logo.png"
+                image={redisLogo}
                 description="Caching solution used to store state and make services stateless."
                 title="Redis"
                 alt="Picture of Redis logo."
@@ -154,7 +163,7 @@ const Technologies = () => {
                 cardClass={cardClass}
               ></Card>
               <Card
-                image="/img/kube-logo.png"
+                image={kubeLogo}
                 description="Microservices deployment orchestration solution."
                 title="Kubernetes"
                 alt="Picture of Kubernetes logo."

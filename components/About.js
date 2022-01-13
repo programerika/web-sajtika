@@ -62,7 +62,6 @@ const About = () => {
           className="w3-image"
           width="2294"
           height="913"
-          priority
           placeholder="blur"
         />
         {/* End About Section */}
