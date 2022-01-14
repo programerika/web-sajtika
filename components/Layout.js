@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
         <title>Programerika</title>
         <meta
           name="description"
-          content="Full stack software developer team from Serbia striving to design and implement efficient software solutions for it’s customers. "
+          content="Full stack software developer team from Serbia. Software development, microservices, react.js, spring boot, kubernetes, postgres, mongodb, sql server, apache kafka, rabbit mq, redis. "
         />
       </Head>
       <Navbar></Navbar>

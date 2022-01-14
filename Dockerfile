@@ -13,6 +13,7 @@ COPY . .
 COPY --from=deps /app/node_modules ./node_modules
 RUN npm run build
 RUN npm install --production --ignore-scripts --prefer-offline
+RUN npm install sharp
 
 # Production image, copy all the files and run next
 FROM balenalib/raspberry-pi-alpine-node AS runner
