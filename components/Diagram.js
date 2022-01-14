@@ -20,7 +20,7 @@ const Diagram = () => {
             height="531"
           />
         </div>
-        {/* En Arch Diagram Section */}
+        {/* End Arch Diagram Section */}
       </div>
     </div>
   );

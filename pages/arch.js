@@ -9,8 +9,6 @@ const arch = () => {
       <AboutArch></AboutArch>
       <Diagram />
       <ArchGallery />
-
-      {/* TODO ADD Git Links */}
     </div>
   );
 };
