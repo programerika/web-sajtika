@@ -5,7 +5,6 @@ import "react-slideshow-image/dist/styles.css";
 import raspberryPi1 from "../public/img/Arch-1-2M.jpg";
 import raspberryPi2 from "../public/img/Arch-2-2M.jpg";
 import raspberryPi3 from "../public/img/Arch-3-2M.jpg";
-import kubectl from "../public/img/kubectl.png";
 
 const ArchGallery = () => {
   const width = 700;
@@ -36,12 +35,6 @@ const ArchGallery = () => {
             ></Card>
             <Card
               image={raspberryPi3}
-              alt="Raspberry Pi 4 cluster"
-              width={width}
-              height={height}
-            ></Card>
-            <Card
-              image={kubectl}
               alt="Raspberry Pi 4 cluster"
               width={width}
               height={height}
