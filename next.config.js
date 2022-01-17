@@ -5,14 +5,14 @@ module.exports = {
     // number of pages that should be kept simultaneously without being disposed
     pagesBufferLength: 20,
   },
-  reactStrictMode: true,
+  reactStrictMode: true
 
-  async rewrites() {
-    return [
-      {
-        source: "/api/v1/:slug*",
-        destination: "http://localhost:8080/api/v1/:slug*",
-      },
-    ];
-  },
+  // async rewrites() {
+  //   return [
+  //     {
+  //       source: "/api/v1/:slug*",
+  //       destination: "http://localhost:8080/api/v1/:slug*",
+  //     },
+  //   ];
+  // },
 };

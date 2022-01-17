@@ -1,22 +1,29 @@
 # Install dependencies only when needed
-FROM balenalib/raspberry-pi-alpine-node AS deps
+# FROM balenalib/raspberry-pi-alpine-node AS deps
+FROM balenalib/raspberrypi4-64-alpine-node AS deps
+
 #RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm install --frozen-lockfile
 
 # Rebuild the source code only when needed
-FROM balenalib/raspberry-pi-alpine-node AS builder
+#FROM balenalib/raspberry-pi-alpine-node AS builder
+FROM balenalib/raspberrypi4-64-alpine-node AS builder
+
 WORKDIR /app
 ENV NODE_OPTIONS --openssl-legacy-provider
 COPY . .
 COPY --from=deps /app/node_modules ./node_modules
 RUN npm run build
 RUN npm install --production --ignore-scripts --prefer-offline
-RUN SHARP_IGNORE_GLOBAL_LIBVIPS=1 npm install --arch=arm64 --platform=linux sharp
+# RUN SHARP_IGNORE_GLOBAL_LIBVIPS=1 npm install --arch=arm64 --platform=linux sharp
+RUN npm install sharp
 
 # Production image, copy all the files and run next
-FROM balenalib/raspberry-pi-alpine-node AS runner
+# FROM balenalib/raspberry-pi-alpine-node AS runner
+FROM balenalib/raspberrypi4-64-alpine-node AS runner
+
 WORKDIR /app
 
 ENV NODE_ENV production
