@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logoGray from "../public/img/logo_gray.png";
+import logoGray from "../public/img/logo-gray.webp";
 
 const Navbar = () => {
   return (
