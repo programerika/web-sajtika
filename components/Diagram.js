@@ -14,10 +14,11 @@ const Diagram = () => {
 
         <div className="w3-center w3-padding ">
           <Image
-            src="/img/KubernetesDiagram-transparent.png"
+            src="/img/cluster-diagram.png"
             alt="kubernetes-diagram-logo"
-            width="792"
-            height="531"
+            width="742"
+            height="551"
+            priority
           />
         </div>
         {/* End Arch Diagram Section */}
