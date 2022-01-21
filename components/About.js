@@ -63,6 +63,7 @@ const About = () => {
           width="2294"
           height="913"
           placeholder="blur"
+          priority
         />
         {/* End About Section */}
       </div>
