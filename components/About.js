@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../public/img/logo.webp";
+import logo from "../public/img/logo.png";
 import Raspberry from "../public/img/Cover-1-2M.jpg";
 
 const About = () => {
