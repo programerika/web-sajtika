@@ -15,8 +15,9 @@ COPY . .
 COPY --from=deps /app/node_modules ./node_modules
 RUN npm run build
 RUN npm install --production --ignore-scripts --prefer-offline
+
 # RUN SHARP_IGNORE_GLOBAL_LIBVIPS=1 npm install --arch=arm64 --platform=linux sharp
-RUN npm install sharp
+# RUN npm install sharp
 
 # Production image, copy all the files and run next
 FROM balenalib/raspberrypi4-64-alpine-node AS runner
