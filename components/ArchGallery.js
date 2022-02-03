@@ -16,9 +16,6 @@ const ArchGallery = () => {
       <div className="w3-content w3-justify w3-text-grey arch-gallery w3-padding-16">
         <h2 className="w3-text-light-grey w3-center">Gallery</h2>
         <hr className="w3-opacity w3-width-100" />
-
-        {/* TODO Add Gallery here */}
-
         <div className="slide-container w3-center w3-panel">
           <Slide autoplay={true} canSwipe>
             <Card

@@ -41,23 +41,17 @@ h6 {
   background-color: rgb(29, 28, 28);
   margin: 5px;
   border-radius: 5%;
-  /* min-height: fit-content; */
   height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* width: fit-content; */
-  /* width: fit-content; */
 }
 
 .carousel-description {
-  /* padding: 5px; */
-  /* margin: 5px; */
   margin-bottom: 5px;
   height: 200px;
   min-height: fit-content;
-  /* min-width: fit-content; */
 }
 
 .carousel-description-small {

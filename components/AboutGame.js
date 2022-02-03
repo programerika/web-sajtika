@@ -13,7 +13,6 @@ const AboutGame = () => {
       >
         <h2 className="w3-text-light-grey w3-center">Demo game</h2>
         <hr className="w3-opacity w3-width-100" />
-        {/* Game image goes here*/}
         <div className="w3-responsive">
           <div className="w3-center w3-padding w3-third">
             <Image

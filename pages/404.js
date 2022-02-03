@@ -17,7 +17,6 @@ const NotFound = () => {
                 <h3>That page could not be found</h3>
             </div>
         </div>
-        
      );
 }
  

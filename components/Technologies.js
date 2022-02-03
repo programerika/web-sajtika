@@ -39,7 +39,6 @@ const Technologies = () => {
               additionalTransfrom={0}
               arrows={true}
               autoPlaySpeed={2000}
-              //centerMode
               className=""
               containerClass="container-with-dots"
               dotListClass=""

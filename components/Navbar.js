@@ -6,7 +6,6 @@ const Navbar = () => {
   return (
     <div>
       <nav className="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-        {/* Avatar image in top left corner */}
         <Image
           src={logoGray}
           alt="Programerika gray logo"
@@ -54,7 +53,6 @@ const Navbar = () => {
           <Link href="/">
             <a
               className="w3-bar-item w3-button"
-              // style={{ width: "18% !important" }}
             >
               HOME
             </a>
@@ -62,7 +60,6 @@ const Navbar = () => {
           <Link href="/#about">
             <a
               className="w3-bar-item w3-button"
-              // style={{ width: "18% !important" }}
             >
               ABOUT
             </a>
@@ -70,7 +67,6 @@ const Navbar = () => {
           <Link href="/#technologies">
             <a
               className="w3-bar-item w3-button"
-              // style={{ width: "18% !important" }}
             >
               TECH
             </a>
@@ -78,7 +74,6 @@ const Navbar = () => {
           <Link href="/#demo">
             <a
               className="w3-bar-item w3-button"
-              // style={{ width: "18% !important" }}
             >
               DEMO
             </a>
@@ -86,7 +81,6 @@ const Navbar = () => {
           <Link href="/#contact">
             <a
               className="w3-bar-item w3-button w3-center"
-              // style={{ width: "25% !important" }}
             >
               CONTACT
             </a>
