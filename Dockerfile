@@ -16,9 +16,6 @@ COPY --from=deps /app/node_modules ./node_modules
 RUN npm run build
 RUN npm install --production --ignore-scripts --prefer-offline
 
-# RUN SHARP_IGNORE_GLOBAL_LIBVIPS=1 npm install --arch=arm64 --platform=linux sharp
-# RUN npm install sharp
-
 # Production image, copy all the files and run next
 FROM balenalib/raspberrypi4-64-alpine-node AS runner
 
@@ -38,6 +35,9 @@ COPY --from=builder /app/package.json ./package.json
 RUN mkdir -p /app/.next/cache/images && chown nextjs:nodejs /app/.next/cache/images
 VOLUME /app/.next/cache/images
 
+# Because we are not deploying our website on Vercel, we installed sharp for image optimization,
+# which is recommended by Next.js for production environment.
+RUN npm install sharp
 
 USER nextjs
 

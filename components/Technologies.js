@@ -19,6 +19,7 @@ const cardClass = "w3-circle";
 const Technologies = () => {
   return (
     <>
+      {/* Technologies Section */}
       <div
         className="w3-padding-16 w3-content w3-text-grey w3-justify"
         id="technologies"
@@ -174,6 +175,7 @@ const Technologies = () => {
           </div>
         </div>
       </div>
+      {/* End Technologies Section */}
     </>
   );
 };

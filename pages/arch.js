@@ -6,9 +6,11 @@ import ArchGallery from "../components/ArchGallery";
 const arch = () => {
   return (
     <div className="w3-padding-large" id="main">
-      <AboutArch></AboutArch>
+      {/* Arch Content */}
+      <AboutArch/>
       <Diagram />
       <ArchGallery />
+      {/* End Arch Content */}
     </div>
   );
 };

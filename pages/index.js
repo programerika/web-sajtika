@@ -13,6 +13,7 @@ export default function Home() {
         <AboutGame />
         <Contact />
       </div>
+      {/* End Page Content */}
     </div>
   );
 }

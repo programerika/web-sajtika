@@ -33,7 +33,7 @@ const Contact = () => {
         />
       </div>
       <br />
-      
+      {/* End Contact Section */}
     </>
   );
 };

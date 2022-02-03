@@ -5,6 +5,7 @@ import logoGray from "../public/img/logo_gray.png";
 const Navbar = () => {
   return (
     <div>
+      {/* Navbar Section */}
       <nav className="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
         <Image
           src={logoGray}
@@ -87,6 +88,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
+      {/* End Navbar Section */}
     </div>
   );
 };
