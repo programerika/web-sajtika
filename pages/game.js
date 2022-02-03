@@ -11,6 +11,7 @@ const WebGejmika = dynamic(
 const game = () => {
   return (
     <div className="w3-padding-large" id="main">
+      {/* Game Content */}
       <div
         className="w3-content w3-justify w3-text-grey w3-padding-16"
         id="game"
@@ -21,6 +22,7 @@ const game = () => {
           <WebGejmika />
         </div>
       </div>
+      {/*End Game Content */}
     </div>
   );
 };

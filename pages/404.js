@@ -12,12 +12,13 @@ const NotFound = () => {
 
     return ( 
         <div className="w3-padding-large" id="main">
+            {/* 404 Page Content */}
             <div className="w3-content w3-padding-64 w3-center">       
                 <h1>Sorry</h1>
                 <h3>That page could not be found</h3>
             </div>
+            {/* End 404 Page Content */}
         </div>
-        
      );
 }
  

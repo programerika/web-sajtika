@@ -2,7 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
+    
     <div className="w3-padding-large" id="main">
+      {/* Footer Section */}
       <footer className="w3-content w3-padding-16">
         <div className="w3-section w3-center">
           <p className="w3-text-gray">
@@ -41,6 +43,7 @@ const Footer = () => {
           </p>
         </div>
       </footer>
+      {/* End Footer Section */}
     </div>
   );
 };

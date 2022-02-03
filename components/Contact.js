@@ -1,4 +1,3 @@
-import { Map, GoogleApiWrapper } from "google-maps-react";
 import Iframe from "react-iframe";
 
 const Contact = () => {
@@ -34,7 +33,7 @@ const Contact = () => {
         />
       </div>
       <br />
-      
+      {/* End Contact Section */}
     </>
   );
 };

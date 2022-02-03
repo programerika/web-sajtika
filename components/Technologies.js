@@ -19,6 +19,7 @@ const cardClass = "w3-circle";
 const Technologies = () => {
   return (
     <>
+      {/* Technologies Section */}
       <div
         className="w3-padding-16 w3-content w3-text-grey w3-justify"
         id="technologies"
@@ -39,7 +40,6 @@ const Technologies = () => {
               additionalTransfrom={0}
               arrows={true}
               autoPlaySpeed={2000}
-              //centerMode
               className=""
               containerClass="container-with-dots"
               dotListClass=""
@@ -175,6 +175,7 @@ const Technologies = () => {
           </div>
         </div>
       </div>
+      {/* End Technologies Section */}
     </>
   );
 };

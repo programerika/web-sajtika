@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Contact from "../components/Contact";
 import About from "../components/About";
 import Technologies from "../components/Technologies";
@@ -14,6 +13,7 @@ export default function Home() {
         <AboutGame />
         <Contact />
       </div>
+      {/* End Page Content */}
     </div>
   );
 }
