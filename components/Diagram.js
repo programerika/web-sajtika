@@ -14,7 +14,7 @@ const Diagram = () => {
 
         <div className="w3-center w3-padding ">
           <Image
-            src="/img/cluster-diagram.png"
+            src="/img/kubernetes-cluster-diagram.png"
             alt="kubernetes-diagram-logo"
             width="742"
             height="551"
