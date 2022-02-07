@@ -1,14 +1,11 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
         <Head>
-        <link
-            rel="favicon"
-            href="../public/favicon.ico"
-          />          
+          <link rel="shortcut icon" href="../public/favicon.ico" />
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Montserrat"
@@ -24,8 +21,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    );
+    )
   }
 }
 
-export default MyDocument;
+export default MyDocument
