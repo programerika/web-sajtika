@@ -15,7 +15,7 @@ const WebGejmika = dynamic(
 );
 
 const game = () => {
-  const [selectedTab, setSelectedTab] = React.useState("0");
+  const [selectedTab, setSelectedTab] = React.useState(0);
 
   const toggleTab = (event, newValue) => {
     setSelectedTab(newValue);
@@ -26,9 +26,9 @@ const game = () => {
   return (
     // <Box sx={{ width: "100%", bgcolor: "black" }}>
     <>
-      <Tabs value={selectedTab} onChange={toggleTab} centered>
-        <Tab label="Gejmika" sx={{ color: "white" }} />
-        <Tab label="Bombika" sx={{ color: "white" }} />
+      <Tabs value={selectedTab} onChange={toggleTab} centered margin-top="10px">
+        <Tab label="React.js" sx={{ color: "white" }} />
+        <Tab label="Vue.js" sx={{ color: "white" }} />
       </Tabs>
       {selectedTab === 0 && (
         <div className="w3-padding-16">
@@ -36,7 +36,7 @@ const game = () => {
         </div>
       )}
       {selectedTab === 1 && (
-        <div>
+        <div className="w3-padding-16">
           <WebBombika />
         </div>
       )}
