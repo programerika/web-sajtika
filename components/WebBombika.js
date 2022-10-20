@@ -1,12 +1,20 @@
 import { useEffect } from "react";
-import dynamic from "next/dynamic";
+import "@mdi/font/css/materialdesignicons.css";
+//import dynamic from "next/dynamic";
+//import createBombika from "bombika";
+//import "bombika/dist/fonts/";
+// const createBombika = dynamic(
+//   () => {
+//     return import("bombika");
+//   },
+//   { ssr: false }
+// );
 
-const createBombika = (id) => {
-  const WebBombika = "";
-
-  useEffect(() => {
-    createBombika(id);
+export default () => {
+  useEffect(async () => {
+    //console.log(createBombika.render());
+    const createBombikaModule = await import("bombika");
+    createBombikaModule.default("#bombika");
   });
+  return <div id="bombika"></div>;
 };
-
-export default createBombika;

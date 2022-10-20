@@ -3,9 +3,9 @@ import dynamic from "next/dynamic";
 import * as React from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import TabPanel from "@mui/material";
+// import TabPanel from "@mui/material";
 // import Typography from "@mui/material/Typography";
-import createBombika from "../components/WebBombika";
+import WebBombika from "../components/WebBombika";
 
 const WebGejmika = dynamic(
   () => {
@@ -21,7 +21,7 @@ const game = () => {
     setSelectedTab(newValue);
   };
 
-  createBombika("gameBombika");
+  // createBombika("gameBombika");
 
   return (
     // <Box sx={{ width: "100%", bgcolor: "black" }}>
@@ -35,7 +35,11 @@ const game = () => {
           <WebGejmika />
         </div>
       )}
-      {selectedTab === 1 && <div id="gameBombika" />}
+      {selectedTab === 1 && (
+        <div>
+          <WebBombika />
+        </div>
+      )}
     </>
 
     // <div className="w3-padding-large" id="main">
