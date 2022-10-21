@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import gameInProg from "../public/img/GameInProgress.png"
+import gameInProg from "../public/img/GameInProgress.png";
 
 const AboutGame = () => {
   return (
@@ -11,16 +11,11 @@ const AboutGame = () => {
         className="w3-content w3-justify w3-text-grey w3-padding-16"
         id="demo"
       >
-        <h2 className="w3-text-light-grey w3-center">Demo game</h2>
+        <h2 className="w3-text-light-grey w3-center">Demo projects</h2>
         <hr className="w3-opacity w3-width-100" />
         <div className="w3-responsive">
           <div className="w3-center w3-padding w3-third">
-            <Image
-              src={gameInProg}
-              alt="me"
-              width="300"
-              height="500"
-            />
+            <Image src={gameInProg} alt="me" width="300" height="500" />
           </div>
           <div className="w3-twothirds">
             <p>
