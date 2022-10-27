@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import gameInProg from "../public/img/GameInProgress.png";
+import gameBombika from "../public/img/gameBombika.png";
 
 const AboutGame = () => {
   return (
@@ -14,10 +15,21 @@ const AboutGame = () => {
         <h2 className="w3-text-light-grey w3-center">Demo projects</h2>
         <hr className="w3-opacity w3-width-100" />
         <div className="w3-responsive">
-          <div className="w3-center w3-padding w3-third">
+          <div className="w3-half" style={{ position: "relative" }}>
             <Image src={gameInProg} alt="me" width="300" height="500" />
+            <div
+              style={{
+                position: "absolute",
+                top: "150px",
+                right: "20px",
+                borderRadius: "10px",
+                overflow: "hidden",
+              }}
+            >
+              <Image src={gameBombika} alt="bomb" width="300" height="350" />
+            </div>
           </div>
-          <div className="w3-twothirds">
+          <div className="w3-half">
             <p>
               This is code guess game, based on bulls and cows game. It is
               developed in React.js with Redux in front end and Java Springboot

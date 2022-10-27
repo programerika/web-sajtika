@@ -22,7 +22,7 @@ const game = () => {
     setSelectedTab(newValue);
   };
 
-  const AntTab = styled(Tab)({
+  const GameTab = styled(Tab)({
     fontSize: "24px",
     fontWeight: "bold",
     borderRadius: 2,
@@ -54,8 +54,8 @@ const game = () => {
           onChange={toggleTab}
           centered
         >
-          <AntTab label="React.js" />
-          <AntTab label="Vue.js" />
+          <GameTab label="React.js" />
+          <GameTab label="Vue.js" />
         </Tabs>
         <div
           className="w3-content w3-justify w3-text-grey w3-padding-16"
