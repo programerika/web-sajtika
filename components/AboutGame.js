@@ -26,7 +26,7 @@ const AboutGame = () => {
                 overflow: "hidden",
               }}
             >
-              <Image src={gameBombika} alt="bomb" width="300" height="350" />
+              <Image src={gameBombika} alt="bomb" width="270" height="350" />
             </div>
           </div>
           <div className="w3-half">
