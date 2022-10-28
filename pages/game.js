@@ -42,25 +42,26 @@ const game = () => {
 
   return (
     <>
-      <div className="w3-padding-48" id="main">
-        <Tabs
-          value={selectedTab}
-          sx={{
-            borderBottom: "1px solid #e8e8e8",
-            "& .MuiTabs-indicator": {
-              backgroundColor: "#15b3a0",
-            },
-          }}
-          onChange={toggleTab}
-          centered
-        >
-          <GameTab label="React.js" />
-          <GameTab label="Vue.js" />
-        </Tabs>
+      <div className="w3-padding-large" id="main">
         <div
           className="w3-content w3-justify w3-text-grey w3-padding-16"
           id="game"
         >
+          <Tabs
+            value={selectedTab}
+            sx={{
+              "& .MuiTabs-indicator": {
+                backgroundColor: "#15b3a0",
+              },
+            }}
+            onChange={toggleTab}
+            centered
+          >
+            <GameTab label="React.js" />
+            <GameTab label="Vue.js" />
+          </Tabs>
+
+          <hr class="w3-opacity w3-width-100" />
           {selectedTab === 0 && (
             <div className="w3-padding-16">
               <WebGejmika />
