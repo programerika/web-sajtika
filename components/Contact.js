@@ -18,6 +18,18 @@ const Contact = () => {
           Email: office@programerika.com
         </p>
         <p>
+          <i className="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right">
+            {" "}
+          </i>{" "}
+          <a
+            href="https://rs.linkedin.com/company/programerika"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn: Programerika
+          </a>
+        </p>
+        <p>
           <i className="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right" />{" "}
           Bulevar Zorana Djindjica 109-II, Belgrade, Serbia
         </p>
