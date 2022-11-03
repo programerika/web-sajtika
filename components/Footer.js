@@ -25,7 +25,16 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              GAME FE repo
+              GAME REACT repo
+            </a>{" "}
+            <span> | </span>
+            {"   "}
+            <a
+              href="https://github.com/programerika/web-bombika"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GAME VUE repo
             </a>{" "}
             <span> | </span>
             {"   "}
