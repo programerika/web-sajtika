@@ -44,7 +44,7 @@ const AboutArch = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Project repo
+                    Project repo
                     </a>
                   </td>
                   <td>
@@ -62,7 +62,7 @@ const AboutArch = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      GAME FE repo
+                      GAME REACT.js repo
                     </a>
                   </td>
                   <td>
@@ -77,11 +77,30 @@ const AboutArch = () => {
                 <tr>
                   <td className="w3-text-white">
                     <a
+                      href="https://github.com/programerika/web-bombika"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                    GAME VUE.js repo
+                    </a>
+                  </td>
+                  <td>
+                    <span> | </span>
+                  </td>
+                  <td>
+                    Mine guess game front-end GIT repository. Technologies
+                    Vue.js with Vuetify. Used CSS scoped style and Vuetify components.
+                    Deployed as library component with inlined resources.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="w3-text-white">
+                    <a
                       href="https://github.com/programerika/web-gejmika-back"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      GAME BE repo
+                    GAME BE repo
                     </a>
                   </td>
                   <td>

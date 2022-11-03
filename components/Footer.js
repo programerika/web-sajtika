@@ -25,7 +25,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              GAME REACT repo
+              GAME REACT.js repo
             </a>{" "}
             <span> | </span>
             {"   "}
@@ -34,7 +34,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              GAME VUE repo
+              GAME VUE.js repo
             </a>{" "}
             <span> | </span>
             {"   "}
