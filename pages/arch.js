@@ -1,7 +1,6 @@
 import React from "react";
 import AboutArch from "../components/AboutArch";
 import Diagram from "../components/Diagram";
-import ArchGallery from "../components/ArchGallery";
 
 const arch = () => {
   return (
@@ -9,7 +8,6 @@ const arch = () => {
       {/* Arch Content */}
       <AboutArch/>
       <Diagram />
-      <ArchGallery />
       {/* End Arch Content */}
     </div>
   );
