@@ -13,7 +13,7 @@
     "@emotion/styled": "^11.10.4",
     "@mdi/font": "5.9.55",
     "@mui/material": "^5.10.9",
-    "bombika": "^0.4.3",
+    "@programerika/web-bombika": "^1.0.0",
     "google-maps-react": "^2.0.6",
     "next": "^12.0.9",
     "react": "17.0.2",

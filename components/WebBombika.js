@@ -13,7 +13,7 @@ import "@mdi/font/css/materialdesignicons.css";
 export default () => {
   useEffect(async () => {
     //console.log(createBombika.render());
-    const createBombikaModule = await import("bombika");
+    const createBombikaModule = await import("@programerika/web-bombika");
     createBombikaModule.default("#bombika");
   });
   return <div id="bombika"></div>;
