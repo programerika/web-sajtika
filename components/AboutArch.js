@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import Raspberry from "../public/img/Cover-1-2M.jpg";
 
 const AboutArch = () => {
   return (
@@ -29,6 +31,15 @@ const AboutArch = () => {
           single point of entrance to Kubernetes cluster.
           <br />
         </p>
+        <Image
+          src={Raspberry}
+          alt="Raspberry pi cluster"
+          className="w3-image"
+          width="2294"
+          height="913"
+          placeholder="blur"
+          priority
+        />
         <div className="w3-container flex-container-git-links w3-padding-16">
           <div className="w3-panel flex-panel-git-logo w3-center">
             <i className="fa fa-github fa-fw w3-text-white w3-jumbo" />

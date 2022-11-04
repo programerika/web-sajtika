@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../public/img/logo.png";
-import Raspberry from "../public/img/Cover-1-2M.jpg";
 
 const About = () => {
   return (
@@ -56,15 +55,6 @@ const About = () => {
           <br></br>
           <br></br>
         </p>
-        <Image
-          src={Raspberry}
-          alt="Raspberry pi cluster"
-          className="w3-image"
-          width="2294"
-          height="913"
-          placeholder="blur"
-          priority
-        />
         {/* End About Section */}
       </div>
     </div>
