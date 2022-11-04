@@ -61,7 +61,7 @@ const game = () => {
             <GameTab label="Vue.js" />
           </Tabs>
 
-          <hr className="w3-opacity w3-width-100" />
+          {/* <hr className="w3-opacity w3-width-100" /> */}
           {selectedTab === 0 && (
             <div className="w3-padding-16">
               <WebGejmika />
