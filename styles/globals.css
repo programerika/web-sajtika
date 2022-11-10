@@ -28,8 +28,17 @@ h6 {
   }
 }
 
-/* Styles from head tag done*/
+.arrow-button-hover :hover {
+  color: aqua;
+}
 
+.arrow-button {
+  font-size: 60px;
+  color: teal;
+  pointer-events: "bounding-box";
+}
+
+/* Styles from head tag done*/
 
 .carousel-container {
   padding-bottom: "30px";
@@ -55,7 +64,7 @@ h6 {
 }
 
 .carousel-description-small {
-  margin-bottom: 5px;  
+  margin-bottom: 5px;
   min-height: fit-content;
 }
 
