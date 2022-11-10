@@ -2,15 +2,16 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from "./Card";
-import reactLogo from "../public/img/react-logo.png"
-import springLogo from "../public/img/spring-logo.png"
-import mongoLogo from "../public/img/mongo-logo.png"
-import postgresqlLogo from "../public/img/postgresql-logo.jpg"
-import sqlserverLogo from "../public/img/sqlserver-logo.png"
-import kafkaLogo from "../public/img/kafka-logo.png"
-import rabbitLogo from "../public/img/rabbit-logo.jpg"
-import redisLogo from "../public/img/redis-logo.png"
-import kubeLogo from "../public/img/kube-logo.png"
+import reactLogo from "../public/img/react-logo.png";
+import springLogo from "../public/img/spring-logo.png";
+import mongoLogo from "../public/img/mongo-logo.png";
+import postgresqlLogo from "../public/img/postgresql-logo.jpg";
+import sqlserverLogo from "../public/img/sqlserver-logo.png";
+import kafkaLogo from "../public/img/kafka-logo.png";
+import rabbitLogo from "../public/img/rabbit-logo.jpg";
+import redisLogo from "../public/img/redis-logo.png";
+import kubeLogo from "../public/img/kube-logo.png";
+import camelLogo from "../public/img/Camel.jpg";
 
 const width = 120;
 const height = 120;
@@ -75,7 +76,7 @@ const Technologies = () => {
                   },
                   items: 2,
                   partialVisibilityGutter: 30,
-                },                
+                },
                 mobile: {
                   breakpoint: {
                     max: 685,
@@ -167,6 +168,15 @@ const Technologies = () => {
                 description="Microservices deployment orchestration solution."
                 title="Kubernetes"
                 alt="Picture of Kubernetes logo."
+                width={width}
+                height={height}
+                cardClass={cardClass}
+              ></Card>
+              <Card
+                image={camelLogo}
+                description="Microservices deployment orchestration solution."
+                title="Camel"
+                alt="Picture of Camel logo."
                 width={width}
                 height={height}
                 cardClass={cardClass}
