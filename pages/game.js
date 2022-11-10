@@ -63,12 +63,12 @@ const game = () => {
 
           {/* <hr className="w3-opacity w3-width-100" /> */}
           {selectedTab === 0 && (
-            <div className="w3-padding-16">
+            <div className="w3-padding-16 w3-margin-top">
               <WebGejmika />
             </div>
           )}
           {selectedTab === 1 && (
-            <div className="w3-padding-16">
+            <div className="w3-padding-16 w3-margin-top">
               <WebBombika />
             </div>
           )}
