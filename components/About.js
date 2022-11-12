@@ -54,7 +54,7 @@ const About = () => {
                 </Link>
               </div>
             </div>
-
+            <br></br>
             <div className="w3-row w3-display-container">
               <div className="w3-threequarter">
                 <p className="w3-justify">
@@ -74,7 +74,7 @@ const About = () => {
                 </Link>
               </div>
             </div>
-
+            <br></br>
             <div className="w3-row w3-display-container ">
               <div className="w3-threequarter">
                 <p className="w3-justify">
