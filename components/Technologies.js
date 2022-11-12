@@ -12,6 +12,12 @@ import rabbitLogo from "../public/img/rabbit-logo.jpg";
 import redisLogo from "../public/img/redis-logo.png";
 import kubeLogo from "../public/img/kube-logo.png";
 import camelLogo from "../public/img/Camel.jpg";
+import vueLogo from "../public/img/Vue.png";
+import typescriptLogo from "../public/img/Typescript.png";
+import golangLogo from "../public/img/Golang.png";
+import csharpLogo from "../public/img/CSharp.png";
+import dotNet from "../public/img/Net.jpg";
+import azureDevOps from "../public/img/AzureDevOps.png";
 
 const width = 120;
 const height = 120;
@@ -101,10 +107,55 @@ const Technologies = () => {
                 cardClass={cardClass}
               ></Card>
               <Card
+                image={vueLogo}
+                description="Vue is a JavaScript framework, component-based programming model that helps you efficiently develop user interfaces."
+                title="Vue JS"
+                alt="Picture of Vue JS logo."
+                width={width}
+                height={height}
+                cardClass={cardClass}
+              ></Card>
+              <Card
+                image={typescriptLogo}
+                description="TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."
+                title="TypeScript"
+                alt="Picture of Typescript logo."
+                width={width}
+                height={height}
+                cardClass={cardClass}
+              ></Card>
+              <Card
                 image={springLogo}
-                description="One of best platforms for microservice architecture. "
+                description="One of best platforms for microservice architecture."
                 title="Spring Boot"
                 alt="Picture of Spring Boot logo."
+                width={width}
+                height={height}
+                cardClass={cardClass}
+              ></Card>
+              <Card
+                image={golangLogo}
+                description="Go is an open source programming language supported by Google. Easy to learn and get started with."
+                title="Golang"
+                alt="Picture of Golang logo."
+                width={width}
+                height={height}
+                cardClass={cardClass}
+              ></Card>
+              <Card
+                image={csharpLogo}
+                description="C# is a modern, object-oriented, and type-safe programming language for secure and robust applications."
+                title="C#"
+                alt="Picture of C# logo."
+                width={width}
+                height={height}
+                cardClass={cardClass}
+              ></Card>
+              <Card
+                image={dotNet}
+                description=".NET is an open source developer platform, created by Microsoft, for building many different types of applications."
+                title=".NET"
+                alt="Picture of .NET logo."
                 width={width}
                 height={height}
                 cardClass={cardClass}
@@ -132,6 +183,15 @@ const Technologies = () => {
                 description="Relation database with enterprise features"
                 title="SQL Server"
                 alt="Picture of SQL Server logo."
+                width={width}
+                height={height}
+                cardClass={cardClass}
+              ></Card>
+              <Card
+                image={camelLogo}
+                description="Camel is an Open Source integration framework."
+                title="Camel"
+                alt="Picture of Camel logo."
                 width={width}
                 height={height}
                 cardClass={cardClass}
@@ -173,10 +233,10 @@ const Technologies = () => {
                 cardClass={cardClass}
               ></Card>
               <Card
-                image={camelLogo}
-                description="Microservices deployment orchestration solution."
-                title="Camel"
-                alt="Picture of Camel logo."
+                image={azureDevOps}
+                description="Collaborative culture and set of processes that bring together developers, project managers, and contributors to develop software."
+                title="Azure DevOps"
+                alt="Picture of Azure DevOps logo."
                 width={width}
                 height={height}
                 cardClass={cardClass}
