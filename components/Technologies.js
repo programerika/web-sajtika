@@ -34,7 +34,7 @@ const Technologies = () => {
         <h2 className="w3-text-light-grey w3-center">Technologies We Use</h2>
         <hr className="w3-opacity w3-width-100" />
         <p>
-          We are eager to work on projects using following technologies. Of
+          We are ready to work on projects using following technologies. Of
           course we have experiences with other technologies too and we can work
           with them.
         </p>
@@ -46,6 +46,7 @@ const Technologies = () => {
               autoPlay={false}
               additionalTransfrom={0}
               arrows={true}
+              removeArrowOnDeviceType={["mobile", "mobileBig"]}
               autoPlaySpeed={2000}
               className=""
               containerClass="container-with-dots"
@@ -55,16 +56,17 @@ const Technologies = () => {
               infinite
               itemClass=""
               keyBoardControl
-              minimumTouchDrag={80}
+              minimumTouchDrag={50}
               renderButtonGroupOutside={false}
               renderDotsOutside
+              centerMode
               responsive={{
                 desktop: {
                   breakpoint: {
                     max: 3000,
                     min: 1200,
                   },
-                  items: 4,
+                  items: 3,
                   partialVisibilityGutter: 40,
                 },
                 tablet: {
@@ -72,7 +74,7 @@ const Technologies = () => {
                     max: 1200,
                     min: 900,
                   },
-                  items: 3,
+                  items: 2,
                   partialVisibilityGutter: 30,
                 },
                 mobileBig: {
@@ -80,7 +82,7 @@ const Technologies = () => {
                     max: 900,
                     min: 685,
                   },
-                  items: 2,
+                  items: 1,
                   partialVisibilityGutter: 30,
                 },
                 mobile: {
@@ -108,7 +110,7 @@ const Technologies = () => {
               ></Card>
               <Card
                 image={vueLogo}
-                description="Vue is a JavaScript framework, component-based programming model that helps you efficiently develop user interfaces."
+                description="We used Vue 3 with Vuetify on few projects, developing complex UI library and configurable application framework."
                 title="Vue JS"
                 alt="Picture of Vue JS logo."
                 width={width}
@@ -117,7 +119,7 @@ const Technologies = () => {
               ></Card>
               <Card
                 image={typescriptLogo}
-                description="TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."
+                description="TypeScript is our preference for any React.js or Vue.js project larger than very small applications."
                 title="TypeScript"
                 alt="Picture of Typescript logo."
                 width={width}
@@ -126,7 +128,7 @@ const Technologies = () => {
               ></Card>
               <Card
                 image={springLogo}
-                description="One of best platforms for microservice architecture."
+                description="Our number one chooice for backend microservices as most complete and known platform. One of best platforms for microservice architecture."
                 title="Spring Boot"
                 alt="Picture of Spring Boot logo."
                 width={width}
@@ -135,7 +137,7 @@ const Technologies = () => {
               ></Card>
               <Card
                 image={golangLogo}
-                description="Go is an open source programming language supported by Google. Easy to learn and get started with."
+                description="We had few projects developing backend services in Go. It is efficent programming language easy to learn and get started with."
                 title="Golang"
                 alt="Picture of Golang logo."
                 width={width}
@@ -144,7 +146,7 @@ const Technologies = () => {
               ></Card>
               <Card
                 image={csharpLogo}
-                description="C# is a modern, object-oriented, and type-safe programming language for secure and robust applications."
+                description="We had many different projects where we used C# programming language including front end applications, back end applications and plugins."
                 title="C#"
                 alt="Picture of C# logo."
                 width={width}
@@ -153,7 +155,7 @@ const Technologies = () => {
               ></Card>
               <Card
                 image={dotNet}
-                description=".NET is an open source developer platform, created by Microsoft, for building many different types of applications."
+                description=".NET platform is also our choice for backend microservices, depending on related technologies, team experience and customer requirements."
                 title=".NET"
                 alt="Picture of .NET logo."
                 width={width}
@@ -162,7 +164,7 @@ const Technologies = () => {
               ></Card>
               <Card
                 image={mongoLogo}
-                description="Document store nosql database"
+                description="We have experience in deploying this nosql database to multi node replication set, in administration, and in using complex aggregation queries."
                 title="Mongo DB"
                 alt="Picture of Mongo DB logo."
                 width={width}
@@ -171,7 +173,7 @@ const Technologies = () => {
               ></Card>
               <Card
                 image={postgresqlLogo}
-                description="Free relational database"
+                description="Our senior DevOps have experience in administraiton and performance tuning of relational PostgreSQL databases. All our team members are proficient in SQL and have experience with complex database models."
                 title="PostgreSQL"
                 alt="Picture of PostgreSQL logo."
                 width={width}
@@ -180,7 +182,7 @@ const Technologies = () => {
               ></Card>
               <Card
                 image={sqlserverLogo}
-                description="Relation database with enterprise features"
+                description="Our senior DevOps have experience in administraiton and performance tuning of relational SQL Server databases. All our team members are proficient in T-SQL and have experience with complex database models."
                 title="SQL Server"
                 alt="Picture of SQL Server logo."
                 width={width}
@@ -189,8 +191,8 @@ const Technologies = () => {
               ></Card>
               <Card
                 image={camelLogo}
-                description="Camel is an Open Source integration framework."
-                title="Camel"
+                description="We used Apache Camel enteprise integration framework in multiple projects. Out team members are familiar with Enterprise Integration Patterns."
+                title="Apache Camel"
                 alt="Picture of Camel logo."
                 width={width}
                 height={height}
@@ -198,7 +200,7 @@ const Technologies = () => {
               ></Card>
               <Card
                 image={kafkaLogo}
-                description="Message streaming solution mostly used for asynchronous communication between backend services."
+                description="Message streaming solution for asynchronous communication between backend services. Our senior team members had experience in projects using Apache Kafka."
                 title="Apache Kafka"
                 alt="Picture of Apache Kafka logo."
                 width={width}
@@ -207,7 +209,7 @@ const Technologies = () => {
               ></Card>
               <Card
                 image={rabbitLogo}
-                description="Message queue solution for asynchronous communication between services focused on specific business cases."
+                description="Message queue solution for asynchronous communication between services. Our senior team members had experience in projects using Rabbit MQ."
                 title="Rabbit MQ"
                 alt="Picture of Rabbit MQ logo."
                 width={width}
@@ -216,7 +218,7 @@ const Technologies = () => {
               ></Card>
               <Card
                 image={redisLogo}
-                description="Caching solution used to store state and make services stateless."
+                description="Caching solution used to store state and make services stateless. We used Redis in few projects for saving session state."
                 title="Redis"
                 alt="Picture of Redis logo."
                 width={width}
@@ -225,7 +227,7 @@ const Technologies = () => {
               ></Card>
               <Card
                 image={kubeLogo}
-                description="Microservices deployment orchestration solution."
+                description="Microservices deployment orchestration solution. We have hands on experience in baremetal deployment of HA Kubernetes cluster, configuration and management."
                 title="Kubernetes"
                 alt="Picture of Kubernetes logo."
                 width={width}
@@ -234,7 +236,7 @@ const Technologies = () => {
               ></Card>
               <Card
                 image={azureDevOps}
-                description="Collaborative culture and set of processes that bring together developers, project managers, and contributors to develop software."
+                description="Set of processes for developers, project managers, and contributors to develop, integrate and delivery software. Our senior DevOps have experience with Microsoft DevOps platform."
                 title="Azure DevOps"
                 alt="Picture of Azure DevOps logo."
                 width={width}

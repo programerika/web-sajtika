@@ -28,14 +28,29 @@ h6 {
   }
 }
 
-.arrow-button-hover :hover {
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-row-column-1 {
+  flex: 80%;
+}
+.flex-row-column-2 {
+  flex: auto;
+}
+
+.arrow-button:hover {
   color: aqua;
 }
 
 .arrow-button {
-  font-size: 60px;
   color: teal;
-  pointer-events: "bounding-box";
+  width: 5rem;
+  height: 5rem;
+  padding: 0;
 }
 
 /* Styles from head tag done*/
@@ -59,7 +74,7 @@ h6 {
 
 .carousel-description {
   margin-bottom: 5px;
-  height: 200px;
+  height: 300px;
   min-height: fit-content;
 }
 

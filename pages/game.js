@@ -1,6 +1,6 @@
 // import React from "react";
 import dynamic from "next/dynamic";
-import * as React from "react";
+import { useState } from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 // import TabPanel from "@mui/material";
@@ -15,8 +15,8 @@ const WebGejmika = dynamic(
   { ssr: false }
 );
 
-const game = () => {
-  const [selectedTab, setSelectedTab] = React.useState(0);
+const Game = () => {
+  const [selectedTab, setSelectedTab] = useState(0);
 
   const toggleTab = (event, newValue) => {
     setSelectedTab(newValue);
@@ -78,4 +78,4 @@ const game = () => {
   );
 };
 
-export default game;
+export default Game;

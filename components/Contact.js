@@ -15,18 +15,20 @@ const Contact = () => {
           <i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right">
             {" "}
           </i>{" "}
-          Email: office@programerika.com
+          Email:{" "}
+          <a href="mailto:office@programerika.com">office@programerika.com</a>
         </p>
         <p>
           <i className="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right">
             {" "}
           </i>{" "}
+          LinkedIn:{" "}
           <a
             href="https://rs.linkedin.com/company/programerika"
             target="_blank"
             rel="noreferrer"
           >
-            LinkedIn: Programerika
+            Programerika
           </a>
         </p>
         <p>
