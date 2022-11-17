@@ -134,17 +134,16 @@ const AboutArch = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="w3-container">
-        <Image
-          src={Raspberry}
-          alt="Raspberry pi cluster"
-          className="w3-image w3-margin"
-          width="2294"
-          height="913"
-          placeholder="blur"
-        />
+        <div className="w3-container">
+          <Image
+            src={Raspberry}
+            alt="Raspberry pi cluster"
+            className="w3-image w3-margin"
+            width="2294"
+            height="913"
+            placeholder="blur"
+          />
+        </div>
       </div>
     </div>
   );

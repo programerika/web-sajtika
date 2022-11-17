@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import "@mdi/font/css/materialdesignicons.css";
 
 export default function WebBombika() {
   useEffect(() => {

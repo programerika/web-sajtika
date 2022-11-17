@@ -48,8 +48,7 @@ h6 {
 
 .arrow-button {
   color: teal;
-  width: 5rem;
-  height: 5rem;
+  font-size: 5rem;
   padding: 0;
 }
 

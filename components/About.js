@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOutlined";
 import logo from "../public/img/logo.png";
 
 const About = () => {
@@ -47,7 +46,7 @@ const About = () => {
             </div>
             <div className="flex-row-column-2 w3-margin">
               <Link href="/#demo" passHref>
-                <ArrowCircleRightOutlinedIcon className="arrow-button w3-btn w3-circle" />
+                <i className="mdi mdi-arrow-right-bold-circle  w3-btn w3-circle arrow-button" />
               </Link>
             </div>
           </div>
@@ -64,7 +63,7 @@ const About = () => {
             </div>
             <div className="flex-row-column-2 w3-margin">
               <Link href="/#technologies" passHref>
-                <ArrowCircleRightOutlinedIcon className="arrow-button w3-btn w3-circle" />
+                <i className="mdi mdi-arrow-right-bold-circle  w3-btn w3-circle arrow-button" />
               </Link>
             </div>
           </div>
@@ -79,7 +78,7 @@ const About = () => {
             </div>
             <div className="flex-row-column-2 w3-margin">
               <Link href="/arch" passHref>
-                <ArrowCircleRightOutlinedIcon className="arrow-button w3-btn w3-circle" />
+                <i className="mdi mdi-arrow-right-bold-circle  w3-btn w3-circle arrow-button" />
               </Link>
             </div>
           </div>
