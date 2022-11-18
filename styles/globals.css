@@ -100,3 +100,30 @@ h6 {
   flex: 75%;
   flex-basis: 600px;
 }
+.tab-hover:hover {
+  background-color: #15b3a0;
+  border-bottom: 2px solid #15b3a0;
+  transition-duration: 0.3s;
+  color: white;
+}
+
+/* .tab-hover:not(:hover) {
+  transition-duration: 0.3s;
+} */
+
+.selected-tab {
+  border-bottom: 2px solid #15b3a0;
+  color: #15b3a0;
+}
+
+.non-selected-tab {
+  color: white;
+  background-color: black;
+}
+
+.tab-style {
+  background-color: black;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 2px;
+}

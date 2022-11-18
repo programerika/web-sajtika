@@ -2,7 +2,6 @@ import Contact from "../components/Contact";
 import About from "../components/About";
 import Technologies from "../components/Technologies";
 import AboutGame from "../components/AboutGame";
-import "@mdi/font/css/materialdesignicons.css";
 
 export default function Home() {
   return (

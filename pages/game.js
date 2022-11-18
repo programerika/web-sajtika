@@ -1,12 +1,7 @@
 // import React from "react";
 import dynamic from "next/dynamic";
 import { useState } from "react";
-import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
-// import TabPanel from "@mui/material";
-// import Typography from "@mui/material/Typography";
 import WebBombika from "../components/WebBombika";
-import styled from "@emotion/styled";
 
 const WebGejmika = dynamic(
   () => {
@@ -16,65 +11,45 @@ const WebGejmika = dynamic(
 );
 
 const Game = () => {
-  const [selectedTab, setSelectedTab] = useState(0);
-
-  const toggleTab = (event, newValue) => {
-    setSelectedTab(newValue);
-  };
-
-  const GameTab = styled(Tab)({
-    fontSize: "24px",
-    fontWeight: "bold",
-    borderRadius: 2,
-    color: "white",
-    marginRight: "10px",
-    "&.MuiTabs-indicator": {
-      color: "red",
-    },
-    "&.Mui-selected": {
-      color: "#56f5d8",
-    },
-    "&:hover": {
-      color: "white",
-      backgroundColor: "#15b3a0",
-    },
-  });
+  const [selectedGame, setSelectedGame] = useState(0);
 
   return (
-    <>
-      <div className="w3-padding-large" id="main">
-        <div
-          className="w3-content w3-justify w3-text-grey w3-padding-16"
-          id="game"
-        >
-          <Tabs
-            value={selectedTab}
-            sx={{
-              "& .MuiTabs-indicator": {
-                backgroundColor: "#15b3a0",
-              },
-            }}
-            onChange={toggleTab}
-            centered
+    <div className="w3-padding-large" id="main">
+      <div className="w3-row w3-content w3-justify w3-padding-16" id="game">
+        <div className="w3-bar w3-black w3-center w3-padding">
+          <button
+            className={
+              "tab-hover w3-padding tab-style " +
+              (selectedGame === 0 ? "selected-tab" : "non-selected-tab")
+            }
+            onClick={() => setSelectedGame(0)}
           >
-            <GameTab label="React.js" />
-            <GameTab label="Vue.js" />
-          </Tabs>
-
-          {/* <hr className="w3-opacity w3-width-100" /> */}
-          {selectedTab === 0 && (
-            <div className="w3-padding-16 w3-margin-top">
-              <WebGejmika />
-            </div>
-          )}
-          {selectedTab === 1 && (
-            <div className="w3-padding-16 w3-margin-top">
-              <WebBombika />
-            </div>
-          )}
+            REACT.JS
+          </button>
+          <button
+            className={
+              "tab-hover w3-padding tab-style " +
+              (selectedGame === 1 ? "selected-tab" : "non-selected-tab")
+            }
+            onClick={() => setSelectedGame(1)}
+          >
+            VUE.JS
+          </button>
         </div>
+
+        {selectedGame === 0 && (
+          <div className="w3-padding-16 w3-margin-top">
+            <WebGejmika />
+          </div>
+        )}
+
+        {selectedGame === 1 && (
+          <div className="w3-padding-16 w3-margin-top">
+            <WebBombika />
+          </div>
+        )}
       </div>
-    </>
+    </div>
   );
 };
 
