@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Raspberry from "../public/img/Cover-1-2M.jpg";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 const AboutArch = () => {
   return (
@@ -35,13 +37,15 @@ const AboutArch = () => {
         </div>
         <div className="w3-half">
           <div className="w3-center w3-margin">
-            <Image
-              src="/img/kubernetes-cluster-diagram.png"
-              alt="kubernetes-diagram-logo"
-              width="742"
-              height="551"
-              priority
-            />
+            <Zoom>
+              <Image
+                src="/img/kubernetes-cluster-diagram.png"
+                alt="kubernetes-diagram-logo"
+                width="742"
+                height="551"
+                priority
+              />
+            </Zoom>
           </div>
         </div>
 

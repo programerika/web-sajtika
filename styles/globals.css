@@ -127,3 +127,7 @@ h6 {
   font-weight: bold;
   border-radius: 2px;
 }
+
+[data-rmiz-modal-overlay="visible"] {
+  background-color: rgb(0, 0, 0, 0.7) !important;
+}
