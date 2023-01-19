@@ -4,7 +4,7 @@ FROM balenalib/raspberrypi4-64-alpine-node AS deps
 #RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY package.json package-lock.json ./
-RUN npm install --frozen-lockfile
+RUN npm clean-install --force
 
 # Rebuild the source code only when needed
 FROM balenalib/raspberrypi4-64-alpine-node AS builder
@@ -14,7 +14,7 @@ ENV NODE_OPTIONS --openssl-legacy-provider
 COPY . .
 COPY --from=deps /app/node_modules ./node_modules
 RUN npm run build
-RUN npm install --production --ignore-scripts --prefer-offline
+RUN npm install --production --ignore-scripts --prefer-offline --force
 
 # Production image, copy all the files and run next
 FROM balenalib/raspberrypi4-64-alpine-node AS runner
@@ -37,7 +37,7 @@ VOLUME /app/.next/cache/images
 
 # Because we are not deploying our website on Vercel, we installed sharp for image optimization,
 # which is recommended by Next.js for production environment.
-RUN npm install sharp
+RUN npm install sharp --force
 
 USER nextjs
 
