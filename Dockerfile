@@ -11,7 +11,11 @@ FROM balenalib/raspberrypi4-64-alpine-node AS builder
 
 WORKDIR /app
 ENV NODE_OPTIONS --openssl-legacy-provider
-COPY . .
+COPY next.config.js package.json package-lock.json ./
+COPY components ./components
+COPY pages ./pages
+COPY public ./public
+COPY styles ./styles
 COPY --from=deps /app/node_modules ./node_modules
 RUN npm run build
 RUN npm install --production --ignore-scripts --prefer-offline --force
