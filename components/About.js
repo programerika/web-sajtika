@@ -40,20 +40,20 @@ const About = () => {
                 accumulated experience over 20 years of developing software. We
                 have specialized knowledge about Finance, Banking and Logistics
                 domains, we were developing and product managing GAMP level
-                software for phamaceutical industry, we have experts for
-                infrastrucuture and DevOps roles with strong knowledge about
+                software for pharmaceutical industry, we have experts for
+                infrastructure and DevOps roles with strong knowledge about
                 performance optimization of database and application services on
                 premise as well on cloud. <br />
                 Our mission is to nurture full stack engineering team with
-                strenght for delivering efficient and modern solutions by
+                strength for delivering efficient and modern solutions by
                 constant education about well established industry practices
                 like reactive programming, clean code and architecture, and good
                 designing practices. Efficient solutions are very important
                 today as global challenges demand reducing our footprint where
-                efficent software implementation and architecture can have
+                efficient software implementation and architecture can have
                 impact in reducing energy usage, paper usage, storage demands
-                and infrastrucuture demands. We see that by constant learning
-                and education of our team to be better software architects and
+                and infrastructure demands. We see that by constant learning and
+                education of our team to be better software architects and
                 developers we are setting our place in global support action
                 group. <br />
                 We prepared this site with some dynamic content using React.js +
@@ -83,12 +83,12 @@ const About = () => {
                 knowledge about software development practices. In recent years
                 we focused to microservices architecture as we think it is right
                 way to meet our mission goals. Our younger team members are
-                software engineers with medior experence. Also we regularly hire
-                begginers after they finish their studies so we can put them
-                thru our 6 months intensive education about software engineering
-                with hands-on approach by doing full software project from
-                analysis and design, implementation, testing and documenting to
-                delivery.
+                software engineers with medior experience. Also we regularly
+                hire beginners after they finish their studies so we can put
+                them thru our 6 months intensive education about software
+                engineering with hands-on approach by doing full software
+                project from analysis and design, implementation, testing and
+                documenting to delivery.
               </p>
             </div>
             <div className="flex-row-column-2 w3-margin">
@@ -104,7 +104,7 @@ const About = () => {
                 Infrastructure is very important aspect in software engineering
                 starting from development, testing and staging environments to
                 production environment. Here we care about security starting
-                from first designs, to protected APIs, data and intelectuall
+                from first designs, to protected APIs, data and intellectual
                 property, by following polices like using encryption on our
                 development machines e.g. bitlocker, user accounts limited
                 access rights, to on premise or cloud servers and services where
