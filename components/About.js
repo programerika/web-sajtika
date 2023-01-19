@@ -37,7 +37,7 @@ const About = () => {
             <div className="flex-row-column-1">
               <p className="w3-justify">
                 We are full stack software engineering team from Serbia, with
-                accumulated expirience over 20 years of developing software. We
+                accumulated experience over 20 years of developing software. We
                 have specialized knowledge about Finance, Banking and Logistics
                 domains, we were developing and product managing GAMP level
                 software for phamaceutical industry, we have experts for
