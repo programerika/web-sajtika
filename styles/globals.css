@@ -26,6 +26,12 @@ h6 {
   #main {
     margin-left: 0;
   }
+  .carousel-description {
+    font-size: 12px;
+  }
+  .carousel-description h5 {
+    font-size: 13px;
+  }
 }
 
 .flex-row {
@@ -73,7 +79,7 @@ h6 {
 
 .carousel-description {
   margin-bottom: 5px;
-  height: 300px;
+  height: 350px;
   min-height: fit-content;
 }
 

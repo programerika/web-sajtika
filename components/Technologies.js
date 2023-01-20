@@ -67,7 +67,6 @@ const Technologies = () => {
                     min: 1200,
                   },
                   items: 3,
-                  partialVisibilityGutter: 40,
                 },
                 tablet: {
                   breakpoint: {
@@ -75,7 +74,6 @@ const Technologies = () => {
                     min: 900,
                   },
                   items: 2,
-                  partialVisibilityGutter: 30,
                 },
                 mobileBig: {
                   breakpoint: {
@@ -83,7 +81,6 @@ const Technologies = () => {
                     min: 685,
                   },
                   items: 1,
-                  partialVisibilityGutter: 30,
                 },
                 mobile: {
                   breakpoint: {
@@ -91,7 +88,6 @@ const Technologies = () => {
                     min: 0,
                   },
                   items: 1,
-                  partialVisibilityGutter: 30,
                 },
               }}
               showDots
