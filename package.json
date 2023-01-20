@@ -1,6 +1,6 @@
 {
   "name": "web-sajtika",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,17 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdi/font": "5.9.55",
+    "@programerika/web-bombika": "^1.0.5",
     "google-maps-react": "^2.0.6",
     "next": "^12.0.9",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-iframe": "^1.8.0",
+    "react-medium-image-zoom": "^5.1.2",
     "react-multi-carousel": "^2.6.3",
     "react-slideshow-image": "^3.4.7",
     "w3-css": "^4.1.0",
     "web-gejmika-front": "^1.0.6"
   },
   "devDependencies": {
+    "@programerika/prettier-config": "^1.0.2",
     "eslint": "7.29.0",
     "eslint-config-next": "11.0.0"
   }

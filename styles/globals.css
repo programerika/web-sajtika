@@ -26,10 +26,39 @@ h6 {
   #main {
     margin-left: 0;
   }
+  .carousel-description {
+    font-size: 12px;
+  }
+  .carousel-description h5 {
+    font-size: 13px;
+  }
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-row-column-1 {
+  flex: 80%;
+}
+.flex-row-column-2 {
+  flex: auto;
+}
+
+.arrow-button:hover {
+  color: aqua;
+}
+
+.arrow-button {
+  color: teal;
+  font-size: 5rem;
+  padding: 0;
 }
 
 /* Styles from head tag done*/
-
 
 .carousel-container {
   padding-bottom: "30px";
@@ -50,12 +79,12 @@ h6 {
 
 .carousel-description {
   margin-bottom: 5px;
-  height: 200px;
+  height: 350px;
   min-height: fit-content;
 }
 
 .carousel-description-small {
-  margin-bottom: 5px;  
+  margin-bottom: 5px;
   min-height: fit-content;
 }
 
@@ -76,4 +105,35 @@ h6 {
 .flex-panel-git-links {
   flex: 75%;
   flex-basis: 600px;
+}
+.tab-hover:hover {
+  background-color: #15b3a0;
+  border-bottom: 2px solid #15b3a0;
+  transition-duration: 0.3s;
+  color: white;
+}
+
+/* .tab-hover:not(:hover) {
+  transition-duration: 0.3s;
+} */
+
+.selected-tab {
+  border-bottom: 2px solid #15b3a0;
+  color: #15b3a0;
+}
+
+.non-selected-tab {
+  color: white;
+  background-color: black;
+}
+
+.tab-style {
+  background-color: black;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+[data-rmiz-modal-overlay="visible"] {
+  background-color: rgb(0, 0, 0, 0.7) !important;
 }

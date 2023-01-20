@@ -1,5 +1,7 @@
-import React from "react";
+// import React from "react";
 import dynamic from "next/dynamic";
+import { useState } from "react";
+import WebBombika from "../components/WebBombika";
 
 const WebGejmika = dynamic(
   () => {
@@ -8,23 +10,47 @@ const WebGejmika = dynamic(
   { ssr: false }
 );
 
-const game = () => {
+const Game = () => {
+  const [selectedGame, setSelectedGame] = useState(0);
+
   return (
     <div className="w3-padding-large" id="main">
-      {/* Game Content */}
-      <div
-        className="w3-content w3-justify w3-text-grey w3-padding-16"
-        id="game"
-      >
-        <h2 className="w3-text-light-grey w3-center">Demo game</h2>
-        <hr className="w3-opacity w3-width-100" />
-        <div className="w3-padding-16">
-          <WebGejmika />
+      <div className="w3-row w3-content w3-justify w3-padding-16" id="game">
+        <div className="w3-bar w3-black w3-center w3-padding">
+          <button
+            className={
+              "tab-hover w3-padding tab-style " +
+              (selectedGame === 0 ? "selected-tab" : "non-selected-tab")
+            }
+            onClick={() => setSelectedGame(0)}
+          >
+            REACT.JS
+          </button>
+          <button
+            className={
+              "tab-hover w3-padding tab-style " +
+              (selectedGame === 1 ? "selected-tab" : "non-selected-tab")
+            }
+            onClick={() => setSelectedGame(1)}
+          >
+            VUE.JS
+          </button>
         </div>
+
+        {selectedGame === 0 && (
+          <div className="w3-padding-16 w3-margin-top">
+            <WebGejmika />
+          </div>
+        )}
+
+        {selectedGame === 1 && (
+          <div className="w3-padding-16 w3-margin-top">
+            <WebBombika />
+          </div>
+        )}
       </div>
-      {/*End Game Content */}
     </div>
   );
 };
 
-export default game;
+export default Game;
