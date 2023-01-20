@@ -1,6 +1,6 @@
 {
   "name": "web-sajtika",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
-    "@programerika/web-bombika": "^1.0.1",
+    "@programerika/web-bombika": "^1.0.5",
     "google-maps-react": "^2.0.6",
     "next": "^12.0.9",
     "react": "17.0.2",
