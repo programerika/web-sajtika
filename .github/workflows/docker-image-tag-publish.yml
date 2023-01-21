@@ -18,8 +18,8 @@ jobs:
             programerikadh/websajtika
           tags: |
             type=semver,pattern={{version}}
-        flavor: |
-          latest=false
+          flavor: |
+            latest=false
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
       - name: Set up Docker Buildx
