@@ -25,4 +25,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: docker.io/programerikadh/websajtika:dev
+          platforms: linux/arm64/v8
+          tags: programerikadh/websajtika:dev
