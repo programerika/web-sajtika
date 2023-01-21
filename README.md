@@ -6,7 +6,7 @@ First, run the development server:
 
 ```bash
 # First install required dependencies 
-npm install 
+npm clean-install --legacy-peer-deps
 
 # After that run development server 
 npm run dev
