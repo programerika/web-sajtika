@@ -26,3 +26,8 @@ jobs:
           context: .
           push: true
           tags: programerikadh/websajtika:dev
+          provenance: false
+#      - name: Build the Docker image
+#        run: docker build . --file Dockerfile --tag programerikadh/websajtika:dev
+#      - name: Push the Docker image
+#        run: docker push programerikadh/websajtika:dev
